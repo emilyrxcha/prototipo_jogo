@@ -2,13 +2,18 @@ switch(estado) {
 	case JogadorEstado.LIVRE: JogadorEstadoLivre(vlc); break;
 	case JogadorEstado.ATAQUE: JogadorEstadoAtaque(); break;
 }
+#region ATAQUE
+	if estado = JogadorEstado.ATAQUE {
+		hvlc = 0;
+		sprite_index = spr_jogador_atacando;
+	}
+#endregion
 
-/*
 if state = PlayerState.ATTACK {
 	hspd = 0;
 	sprite_index = spr_player_attack;
 }
-*/
+
 /*
 if keyboard_check_pressed(ord("G")){
 	estado = PlayerState.FREEZE;
@@ -26,11 +31,4 @@ if (global.life < 1){
 //#region COMBATE
 
 //#endregion
-/*
-#region ATAQUE
-	if tecla_ataque{
-		image_index = 0;
-		estado = JogadorEstado.ATAQUE; 
-	}
-#endregion
-*/
+

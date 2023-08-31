@@ -12,6 +12,6 @@ if estado = InimigoEstado.PARADO {
 	hvlc = 0;
 	sprite_index = spr_inimigo_parado;
 }
-if vida_inimigo <= 0{
+if global.vidaInimigo <= 0{
 	instance_destroy();
 }
