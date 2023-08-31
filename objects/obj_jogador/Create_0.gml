@@ -1,16 +1,17 @@
-spd = 5;
-hspd = 0;
-vspd = 0;
-grv = 0.4;
-cooldown = 1 * room_speed;
-global.bullets = 10;
+vlc = 5;//velocidade
+hvlc = 0;//velocidade horizontal
+vvlc = 0;//velocidade vertical
+grv = 0.4;//força da gravidade
+esfriar = 1 * room_speed;//romm_speed: quantidade de quadros que são processados por segundo
+//global.bullets = 10;
 global.vida = 4;
-image_speed = 0.4;
-state=JogadorEstado.LIVRE;
-texto="";
-enum JogadorEstado {
+image_speed = 0.6;//velocidade da animação
+estado=JogadorEstado.LIVRE;
+//texto="";
+alfa_bater = 0;
+alarm[0] = 0;
+enum JogadorEstado {//enumerador
 	LIVRE,
-	CONGELADO
-	,
+	//MORTE,
 	ATAQUE
 }

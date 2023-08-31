@@ -1,8 +1,8 @@
-switch(state) {
-	case JogadorEstado.LIVRE: JogadorEstadoLivre(spd); break;
-	case JogadorEstado.CONGELADO: JogadorEstadoCongelado(); break;
-	//case PlayerState.ATTACK: PlayerStateAttack(); break;
+switch(estado) {
+	case JogadorEstado.LIVRE: JogadorEstadoLivre(vlc); break;
+	case JogadorEstado.ATAQUE: JogadorEstadoAtaque(); break;
 }
+
 /*
 if state = PlayerState.ATTACK {
 	hspd = 0;
@@ -11,15 +11,26 @@ if state = PlayerState.ATTACK {
 */
 /*
 if keyboard_check_pressed(ord("G")){
-	state = PlayerState.FREEZE;
+	estado = PlayerState.FREEZE;
 }
 */
-if cooldown > 0 {
-	cooldown--;
+if esfriar > 0 {
+	esfriar--;
 }
 /*
 if (global.life < 1){
 	var t =instance_create_layer(x,y,layer,obj_morte);
 	t.texto = "Você morreu!";
 }
+*/
+//#region COMBATE
+
+//#endregion
+/*
+#region ATAQUE
+	if tecla_ataque{
+		image_index = 0;
+		estado = JogadorEstado.ATAQUE; 
+	}
+#endregion
 */

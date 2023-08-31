@@ -1,7 +1,7 @@
 function InimigoEstadoPerseguicao(){
 	script_execute(get_entrada)
 	#region MOVIMENTACAO
-	vspd = vspd + grv;
+	vvlc = vvlc + grv;
 	//COLISAO HORIZONTAL
 	if (obj_jogador.x != x){
 		vir = sign(obj_jogador.x - x);
@@ -9,22 +9,22 @@ function InimigoEstadoPerseguicao(){
 	}
 	
 	//VELOCIDADE
-	hspd = vir * 4;
-	if place_meeting(x+hspd,y,obj_parede){
-		while(!place_meeting(x+sign(hspd),y,obj_parede)){
-			x = x + sign(hspd);}
-		hspd = 0;
+	hvlc = vir * 4;
+	if place_meeting(x+hvlc,y,obj_parede){
+		while(!place_meeting(x+sign(hvlc),y,obj_parede)){
+			x = x + sign(hvlc);}
+		hvlc = 0;
 	}
-	x = x + hspd;
+	x = x + hvlc;
 	
 	//COLISAO VERTICAL
-	if place_meeting(x,y+vspd,obj_parede){
-		while(!place_meeting(x,y+sign(vspd),obj_parede)){
-			y = y + sign(vspd);
+	if place_meeting(x,y+vvlc,obj_parede){
+		while(!place_meeting(x,y+sign(vvlc),obj_parede)){
+			y = y + sign(vvlc);
 		}
-		vspd = 0;
+		vvlc = 0;
 	}
-	y = y + vspd;
+	y = y + vvlc;
 	#endregion
 	//TROCA O LADO DO SPRITE
 	if (abs(vir)){

@@ -1,3 +1,3 @@
-target_ = obj_jogador;
-width_ = camera_get_view_width(view_camera[0]);
-height_ = camera_get_view_height(view_camera[0]);
+alvo = obj_jogador;
+largura = camera_get_view_width(view_camera[0]);
+altura = camera_get_view_height(view_camera[0]);
