@@ -42,6 +42,7 @@
     {"name":"spr_jogador_pulando_baixo","order":2,"path":"sprites/spr_jogador_pulando_baixo/spr_jogador_pulando_baixo.yy",},
     {"name":"spr_parede","order":1,"path":"sprites/spr_parede/spr_parede.yy",},
     {"name":"InimigoEstadoAtaque","order":2,"path":"scripts/InimigoEstadoAtaque/InimigoEstadoAtaque.yy",},
+    {"name":"InimigoEstadoMorte","order":3,"path":"scripts/InimigoEstadoMorte/InimigoEstadoMorte.yy",},
     {"name":"obj_parede","order":1,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"spr_jogador_atacando","order":5,"path":"sprites/spr_jogador_atacando/spr_jogador_atacando.yy",},
     {"name":"spr_player_jumpFall_","order":2,"path":"sprites/spr_player_jumpFall_/spr_player_jumpFall_.yy",},

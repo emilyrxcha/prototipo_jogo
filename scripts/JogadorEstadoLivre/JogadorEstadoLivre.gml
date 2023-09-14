@@ -39,8 +39,9 @@ script_execute(get_entrada)
 */
 #endregion
 #region MORTE
+	//mensagem ->
 	function morte(){
-		var resposta = show_question("Você morreu! Deseja iniciar outra partida?");
+		var resposta = show_question("Você perdeu! Deseja iniciar outra partida?");
 		if (resposta == true) {
 			game_restart();
 		} 
@@ -88,7 +89,7 @@ script_execute(get_entrada)
 			sprite_index = spr_jogador_correndo;
 		}
 	}
-	//morto
+	//jogador morto
 	/*
 	if global.vida < 1 {
 		sprite_index = spr_jogador_morto;
@@ -96,7 +97,7 @@ script_execute(get_entrada)
 	*/
 #endregion
 #region ATAQUE
-	if tecla_ataque{
+	if tecla_ataque {
 		image_index = 0; //reseta a animação
 		estado = JogadorEstado.ATAQUE;  //muda o estado para atacando
 	//	instance_create_layer(x+20, y-8,"Instances",obj_areacolisao); //cria a área de colisão do ataque
