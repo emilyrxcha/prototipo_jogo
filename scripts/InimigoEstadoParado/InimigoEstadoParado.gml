@@ -17,15 +17,16 @@ function InimigoEstadoParado(){
 		y = y + vvlc;
 	
 		if(hvlc!=0) image_xscale=sign(hvlc); //TROCA O LADO DO SPRITE
-		if distance_to_object(obj_jogador) < distancia {
+			if distance_to_object(obj_jogador) < distancia {
 			estado = InimigoEstado.PERSEGUICAO;
 			sprite_index = spr_inimigo_correndo;
 		}
+		
 	}
 #region MORTE
 	//mensagem ->
 	function morteInimigo(){
-		var resposta = show_question("Você ganhou! Deseja iniciar outra partida?");
+		var resposta = show_question("Parabéns " + global.nomeUsuario + "! Você ganhou!Deseja iniciar outra partida?");
 		if (resposta == true) {
 			game_restart();
 		} 

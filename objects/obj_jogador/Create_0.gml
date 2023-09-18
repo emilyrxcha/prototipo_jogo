@@ -1,3 +1,5 @@
+global.nomeUsuario = get_string("Digite o nome do usuário","");
+
 vlc = 5;//velocidade
 hvlc = 0;//velocidade horizontal
 vvlc = 0;//velocidade vertical
@@ -10,6 +12,7 @@ estado=JogadorEstado.LIVRE;
 //texto="";
 alfa_bater = 0;
 alarm[0] = 0;
+
 enum JogadorEstado {//enumerador
 	LIVRE,
 	//MORTE,
