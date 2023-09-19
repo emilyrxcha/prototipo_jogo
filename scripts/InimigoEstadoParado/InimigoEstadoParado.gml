@@ -36,7 +36,7 @@ function InimigoEstadoParado(){
 	}
 	
 	if global.vidaInimigo <= 0{
-		instance_destroy();
+		//instance_destroy();
 		morteInimigo();
 	}
 #endregion

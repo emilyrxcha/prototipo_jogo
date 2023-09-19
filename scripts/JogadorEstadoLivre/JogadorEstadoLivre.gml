@@ -23,19 +23,33 @@ script_execute(get_entrada)
 	if place_meeting(x,y+1,obj_parede)and tecla_pulo{
 		vvlc -=8;}
 #endregion
+/*
+#region ATAQUE
+	if tecla_ataque {
+		image_index = 0; //reseta a animação
+		estado = JogadorEstado.ATAQUE;  //muda o estado para atacando
+	//	instance_create_layer(x+20, y-8,"Instances",obj_areacolisao); //cria a área de colisão do ataque
+	}
+#endregion
+*/
 #region TIRO
 	var flipped = direction; //armazena a direção do tiro
 	var flecha_x = (x+4)*(flipped);
 	var _xx = x + lengthdir_x(15,image_angle);
 	var y_offset = lengthdir_y(-20,image_angle);
 	if tecla_ataque and global.flechas > 0 {
-	//audio...
-		with (instance_create_layer(_xx,y+25,"Flecha",obj_flecha)){
-			global.flechas--;
-			speed = 20;
-			direction = -90 + 90 * other.image_xscale;
-			image_angle = direction;
-		}
+		image_index = 0; //reseta a animação
+		estado = JogadorEstado.ATAQUE;  //muda o estado para atacando
+		//if (image_index >= image_number -6 && image_index <= image_number -7) {
+		//audio...
+			with (instance_create_layer(_xx,y-50,"Flecha",obj_flecha)){
+				//show_message("Criou uma flecha");
+				global.flechas--;
+				speed = 20;
+				direction = -90 + 90 * other.image_xscale;
+				image_angle = direction;
+			}
+		//}
 	}
 #endregion
 #region MORTE
@@ -95,12 +109,5 @@ script_execute(get_entrada)
 		sprite_index = spr_jogador_morto;
 	}
 	*/
-#endregion
-#region ATAQUE
-	if tecla_ataque {
-		image_index = 0; //reseta a animação
-		estado = JogadorEstado.ATAQUE;  //muda o estado para atacando
-	//	instance_create_layer(x+20, y-8,"Instances",obj_areacolisao); //cria a área de colisão do ataque
-	}
 #endregion
 }

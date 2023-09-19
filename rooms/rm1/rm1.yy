@@ -25,7 +25,7 @@
   ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Flecha","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Flecha","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tile_Ground","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":64,"TileCompressedData":[
 -357,-2147483648,-4,1,-60,-2147483648,-4,4,-180,-2147483648,-4,1,-60,-2147483648,-4,4,-50,-2147483648,-2,0,-62,-2147483648,-3,0,-59,-2147483648,-6,0,-58,-2147483648,-6,0,-56,-2147483648,-8,0,-24,1,-31,-2147483648,-9,0,-24,4,-26,-2147483648,-4,0,-16,-2147483648,-2,0,-43,-2147483648,-2,1,1,0,-16,-2147483648,-3,0,-40,-2147483648,
 -2,1,-2,19,-2,1,-15,-2147483648,-3,0,-40,-2147483648,-2,4,-4,19,-16,-2147483648,-2,0,-38,-2147483648,-2,1,-2,4,-4,19,-2,1,-54,-2147483648,-6,4,-4,19,-52,-2147483648,-2,1,-6,4,-4,19,-2,1,-50,-2147483648,-10,4,-4,19,-48,-2147483648,-2,1,-10,4,-4,19,-8,1,-40,-2147483648,
