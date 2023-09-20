@@ -1,4 +1,4 @@
-global.nomeUsuario = get_string("Digite o nome do usuário","");
+//global.nomeUsuario = get_string("Digite o nome do usuário","");
 
 vlc = 5; //velocidade
 hvlc = 0; //velocidade horizontal

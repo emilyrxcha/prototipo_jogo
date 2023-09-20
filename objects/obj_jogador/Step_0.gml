@@ -5,7 +5,7 @@ switch(estado) {
 #region ATAQUE
 	if estado = JogadorEstado.ATAQUE {
 		hvlc = 0;
-		sprite_index = spr_jogador_atacando;
+		sprite_index = spr_jogador_atacando_lado;
 	}
 #endregion
 

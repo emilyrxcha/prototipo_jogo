@@ -55,7 +55,8 @@ script_execute(get_entrada)
 #region MORTE
 	//mensagem ->
 	function morte() {
-		var resposta = show_question("Que pena "+ global.nomeUsuario +"! Você perdeu! Deseja iniciar outra partida?");
+		//var resposta = show_question("Que pena "+ global.nomeUsuario +"! Você perdeu! Deseja iniciar outra partida?");
+		var resposta = show_question("Que pena! Você perdeu! Deseja iniciar outra partida?");
 		if (resposta == true) {
 			game_restart();
 		} 

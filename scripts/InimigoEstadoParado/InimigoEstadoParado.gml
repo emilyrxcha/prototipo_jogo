@@ -26,7 +26,8 @@ function InimigoEstadoParado(){
 #region MORTE
 	//mensagem ->
 	function morteInimigo(){
-		var resposta = show_question("Parabéns " + global.nomeUsuario + "! Você ganhou!Deseja iniciar outra partida?");
+		//var resposta = show_question("Parabéns " + global.nomeUsuario + "! Você ganhou!Deseja iniciar outra partida?");
+		var resposta = show_question("Parabéns! Você ganhou! Deseja iniciar outra partida?");
 		if (resposta == true) {
 			game_restart();
 		} 
