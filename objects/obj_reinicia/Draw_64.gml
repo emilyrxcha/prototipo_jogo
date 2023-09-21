@@ -1,1 +1,1 @@
-draw_sprite(spr_reinicia, 0, 1320, 40);
+draw_sprite(spr_reinicia, 0, 1300, 65);

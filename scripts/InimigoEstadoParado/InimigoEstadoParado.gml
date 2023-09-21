@@ -36,9 +36,15 @@ function InimigoEstadoParado(){
 		}
 	}
 	
-	if global.vidaInimigo <= 0{
-		//instance_destroy();
-		morteInimigo();
+	if vidaInimigo <= 0 {
+		instance_destroy();
+		// Verifica se ainda existem inimigos vivos na sala
+		var inimigosRestantes = instance_number(obj_inimigo);
+		
+		if (inimigosRestantes == 0 && !global.inimigosMortos) {
+        global.inimigosMortos = true;
+			morteInimigo();
+		}
 	}
 #endregion
 }

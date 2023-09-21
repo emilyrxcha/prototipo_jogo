@@ -66,7 +66,7 @@ script_execute(get_entrada)
 	}
 						
 	//FIM DAS VIDAS
-	if global.vida < 1 {
+	if global.vidaJogador < 1 {
 		//instance_create_layer(x, y, "Instances", obj_tempo);
 		morte();
 	}

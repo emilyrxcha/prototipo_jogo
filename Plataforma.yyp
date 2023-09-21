@@ -77,7 +77,7 @@
     {"id":{"name":"spr_inimigo_correndo","path":"sprites/spr_inimigo_correndo/spr_inimigo_correndo.yy",},},
     {"id":{"name":"obj_areaColisao","path":"objects/obj_areaColisao/obj_areaColisao.yy",},},
     {"id":{"name":"InimigoEstadoParado","path":"scripts/InimigoEstadoParado/InimigoEstadoParado.yy",},},
-    {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},},
+    {"id":{"name":"spr_vidaJogador","path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},},
     {"id":{"name":"obj_flecha","path":"objects/obj_flecha/obj_flecha.yy",},},
     {"id":{"name":"spr_flecha","path":"sprites/spr_flecha/spr_flecha.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},

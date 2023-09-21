@@ -5,7 +5,8 @@ grv = 0.4; //gravidadde
 pv = 10; //pontos de vida
 distancia = 300;
 image_speed = 0.4; //velocidade de reprodução de uma animação
-global.vidaInimigo = 2;
+//global.vidaInimigo = 2;
+vidaInimigo = 2;
 estado = InimigoEstado.PARADO;
 //room_speed é a taxa de atualização (fps) de uma sala
 esfriarInimigo = 1 * room_speed; 

@@ -11,7 +11,7 @@ if alarm[0] <= 0 {
 		//var distanciaMinima = 1000; // Ajuste essa distância conforme necessário
 		//if (distancia <= distanciaMinima) {
 			// A distância entre o jogador e o inimigo está dentro da distância mínima
-			global.vidaInimigo -= 1;
+			vidaInimigo -= 1;
 			alarm[0] = 60; // 1 segundo sem poder tomar dano
 		//}
 		}

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_vida",
+  "name": "spr_vidaJogador",
   "bbox_bottom": 80,
   "bbox_left": 11,
   "bbox_right": 74,
@@ -36,7 +36,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_vida",
+    "name": "spr_vidaJogador",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -58,11 +58,11 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6e976a98-0881-4e07-b42b-029908d7eb03","path":"sprites/spr_vida/spr_vida.yy",},},},"Disabled":false,"id":"3f462322-13ce-49e6-9e49-89fc79288f6a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf94e618-7f21-4d2a-9db9-adcada81e5d7","path":"sprites/spr_vida/spr_vida.yy",},},},"Disabled":false,"id":"51760b44-20bd-4359-97d0-93f2104db52f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"260398a2-3a82-4070-9044-6b72899ab637","path":"sprites/spr_vida/spr_vida.yy",},},},"Disabled":false,"id":"0141c916-63b9-4d85-9895-03b2c29720f9","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d6b8f64-4987-4525-a6ef-b4ad0369955b","path":"sprites/spr_vida/spr_vida.yy",},},},"Disabled":false,"id":"e00bd12a-97d3-41cb-850a-06110e19fc42","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"95881dca-dd55-4412-aaed-d42b271ba2a5","path":"sprites/spr_vida/spr_vida.yy",},},},"Disabled":false,"id":"f09b11df-b756-4c30-9667-fb3ae09d25fb","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6e976a98-0881-4e07-b42b-029908d7eb03","path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},},},"Disabled":false,"id":"3f462322-13ce-49e6-9e49-89fc79288f6a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cf94e618-7f21-4d2a-9db9-adcada81e5d7","path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},},},"Disabled":false,"id":"51760b44-20bd-4359-97d0-93f2104db52f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"260398a2-3a82-4070-9044-6b72899ab637","path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},},},"Disabled":false,"id":"0141c916-63b9-4d85-9895-03b2c29720f9","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4d6b8f64-4987-4525-a6ef-b4ad0369955b","path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},},},"Disabled":false,"id":"e00bd12a-97d3-41cb-850a-06110e19fc42","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"95881dca-dd55-4412-aaed-d42b271ba2a5","path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},},},"Disabled":false,"id":"f09b11df-b756-4c30-9667-fb3ae09d25fb","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
