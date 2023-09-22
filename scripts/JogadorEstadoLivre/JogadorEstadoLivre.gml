@@ -49,6 +49,7 @@ script_execute(get_entrada)
 			direction = -90 + 90 * other.image_xscale;
 			image_angle = direction;
 			}
+			/*
 			if (global.flechas == 0 && global.inimigosRestantes > 0) {
 				resposta = show_question("Suas flechas acabaram. Deseja iniciar outra partida?"){
 					if (resposta == true) {
@@ -59,6 +60,7 @@ script_execute(get_entrada)
 					}
 				}	
 			}
+			*/
 		//}
 	}
 #endregion
