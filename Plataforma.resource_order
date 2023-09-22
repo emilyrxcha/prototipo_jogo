@@ -29,6 +29,7 @@
     {"name":"spr_player_running_","order":4,"path":"sprites/spr_player_running_/spr_player_running_.yy",},
     {"name":"InimigoEstadoPerseguicao","order":1,"path":"scripts/InimigoEstadoPerseguicao/InimigoEstadoPerseguicao.yy",},
     {"name":"spr_areacolisao","order":15,"path":"sprites/spr_areacolisao/spr_areacolisao.yy",},
+    {"name":"spr_jogador_dano","order":6,"path":"sprites/spr_jogador_dano/spr_jogador_dano.yy",},
     {"name":"obj_vidaInimigo","order":9,"path":"objects/obj_vidaInimigo/obj_vidaInimigo.yy",},
     {"name":"spr_inimigo_atacando","order":3,"path":"sprites/spr_inimigo_atacando/spr_inimigo_atacando.yy",},
     {"name":"spr_fundo","order":11,"path":"sprites/spr_fundo/spr_fundo.yy",},
@@ -62,5 +63,6 @@
     {"name":"spr_inimigo_parado","order":1,"path":"sprites/spr_inimigo_parado/spr_inimigo_parado.yy",},
     {"name":"spr_player_jumpInicial_","order":3,"path":"sprites/spr_player_jumpInicial_/spr_player_jumpInicial_.yy",},
     {"name":"JogadorEstadoAtaque","order":3,"path":"scripts/JogadorEstadoAtaque/JogadorEstadoAtaque.yy",},
+    {"name":"JogadorEstadoDano","order":6,"path":"scripts/JogadorEstadoDano/JogadorEstadoDano.yy",},
   ],
 }

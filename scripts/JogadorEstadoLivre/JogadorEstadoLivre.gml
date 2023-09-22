@@ -32,7 +32,7 @@ script_execute(get_entrada)
 	}
 #endregion
 */
-#region TIRO
+#region ATAQUE
 	var flipped = direction; //armazena a direção do tiro
 	var flecha_x = (x+4)*(flipped);
 	var _xx = x + lengthdir_x(15,image_angle);
@@ -42,12 +42,22 @@ script_execute(get_entrada)
 		estado = JogadorEstado.ATAQUE;  //muda o estado para atacando
 		//if (image_index >= image_number -6 && image_index <= image_number -7) {
 		//audio...
-			with (instance_create_layer(_xx,y-50,"Flecha",obj_flecha)){
-				//show_message("Criou uma flecha");
-				global.flechas--;
-				speed = 20;
-				direction = -90 + 90 * other.image_xscale;
-				image_angle = direction;
+		with (instance_create_layer(_xx,y-50,"Flecha",obj_flecha)){
+			//show_message("Criou uma flecha");
+			global.flechas--;
+			speed = 20;
+			direction = -90 + 90 * other.image_xscale;
+			image_angle = direction;
+			}
+			if (global.flechas == 0 && global.inimigosRestantes > 0) {
+				resposta = show_question("Suas flechas acabaram. Deseja iniciar outra partida?"){
+					if (resposta == true) {
+						game_restart();
+					} 
+					else {
+						game_end();
+					}
+				}	
 			}
 		//}
 	}
@@ -56,7 +66,7 @@ script_execute(get_entrada)
 	//mensagem ->
 	function morte() {
 		//var resposta = show_question("Que pena "+ global.nomeUsuario +"! Você perdeu! Deseja iniciar outra partida?");
-		var resposta = show_question("Que pena! Você perdeu! Deseja iniciar outra partida?");
+		var resposta = show_question("Você perdeu. Deseja iniciar outra partida?");
 		if (resposta == true) {
 			game_restart();
 		} 
@@ -104,6 +114,12 @@ script_execute(get_entrada)
 			sprite_index = spr_jogador_correndo;
 		}
 	}
+	/*
+	//dano 
+	if (esfriar == 0){
+		sprite_index = spr_jogador_dano; //muda a srpite do personagem
+	}
+	*/
 	//jogador morto
 	/*
 	if global.vida < 1 {

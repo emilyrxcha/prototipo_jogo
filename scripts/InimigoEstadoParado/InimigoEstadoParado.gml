@@ -27,7 +27,7 @@ function InimigoEstadoParado(){
 	//mensagem ->
 	function morteInimigo(){
 		//var resposta = show_question("Parabéns " + global.nomeUsuario + "! Você ganhou!Deseja iniciar outra partida?");
-		var resposta = show_question("Parabéns! Você ganhou! Deseja iniciar outra partida?");
+		var resposta = show_question("Você ganhou! Deseja iniciar outra partida?");
 		if (resposta == true) {
 			game_restart();
 		} 
@@ -39,9 +39,9 @@ function InimigoEstadoParado(){
 	if vidaInimigo <= 0 {
 		instance_destroy();
 		// Verifica se ainda existem inimigos vivos na sala
-		var inimigosRestantes = instance_number(obj_inimigo);
+		global.inimigosRestantes = instance_number(obj_inimigo);
 		
-		if (inimigosRestantes == 0 && !global.inimigosMortos) {
+		if (global.inimigosRestantes == 0 && !global.inimigosMortos) {
         global.inimigosMortos = true;
 			morteInimigo();
 		}

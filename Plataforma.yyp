@@ -46,6 +46,7 @@
     {"id":{"name":"spr_player_running_","path":"sprites/spr_player_running_/spr_player_running_.yy",},},
     {"id":{"name":"InimigoEstadoPerseguicao","path":"scripts/InimigoEstadoPerseguicao/InimigoEstadoPerseguicao.yy",},},
     {"id":{"name":"spr_areacolisao","path":"sprites/spr_areacolisao/spr_areacolisao.yy",},},
+    {"id":{"name":"spr_jogador_dano","path":"sprites/spr_jogador_dano/spr_jogador_dano.yy",},},
     {"id":{"name":"obj_vidaInimigo","path":"objects/obj_vidaInimigo/obj_vidaInimigo.yy",},},
     {"id":{"name":"spr_inimigo_atacando","path":"sprites/spr_inimigo_atacando/spr_inimigo_atacando.yy",},},
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"spr_inimigo_parado","path":"sprites/spr_inimigo_parado/spr_inimigo_parado.yy",},},
     {"id":{"name":"spr_player_jumpInicial_","path":"sprites/spr_player_jumpInicial_/spr_player_jumpInicial_.yy",},},
     {"id":{"name":"JogadorEstadoAtaque","path":"scripts/JogadorEstadoAtaque/JogadorEstadoAtaque.yy",},},
+    {"id":{"name":"JogadorEstadoDano","path":"scripts/JogadorEstadoDano/JogadorEstadoDano.yy",},},
     {"id":{"name":"rm1","path":"rooms/rm1/rm1.yy",},},
   ],
   "RoomOrderNodes": [
