@@ -1,11 +1,5 @@
 function JogadorEstadoLivre(vlc){
 script_execute(get_entrada)
-#region CONTROLES
- 	if tecla_reinicia {
-		game_restart()}
-	if tecla_pausa{
-		}
-#endregion
 #region MOVIMENTACAO
 	var move = tecla_direita - tecla_esquerda;
 	hvlc = move * vlc;
