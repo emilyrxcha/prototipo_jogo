@@ -1,7 +1,9 @@
 function InimigoEstadoPerseguicao(){
 	script_execute(get_entrada)
 	#region MOVIMENTACAO
-	vvlc = vvlc + grv;
+	if (vvlc <= 9.8) {
+		vvlc = vvlc + grv;
+	}
 	//COLISAO HORIZONTAL
 	if (obj_jogador.x != x){
 		vir = sign(obj_jogador.x - x);
@@ -34,7 +36,7 @@ function InimigoEstadoPerseguicao(){
 	if distance_to_object(obj_jogador) > distancia {
 		estado = InimigoEstado.PARADO;
 	}
-	if distance_to_object(obj_jogador) < 5 {
+	if distance_to_object(obj_jogador) < 5 && vvlc = 0{
 		estado = InimigoEstado.ATAQUE;
 	}
 }

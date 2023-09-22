@@ -61,6 +61,7 @@
     {"id":{"name":"spr_jogador_pulando_baixo","path":"sprites/spr_jogador_pulando_baixo/spr_jogador_pulando_baixo.yy",},},
     {"id":{"name":"get_entrada","path":"scripts/get_entrada/get_entrada.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
+    {"id":{"name":"spr_inimigo_colisao","path":"sprites/spr_inimigo_colisao/spr_inimigo_colisao.yy",},},
     {"id":{"name":"InimigoEstadoAtaque","path":"scripts/InimigoEstadoAtaque/InimigoEstadoAtaque.yy",},},
     {"id":{"name":"obj_reinicia","path":"objects/obj_reinicia/obj_reinicia.yy",},},
     {"id":{"name":"InimigoEstadoMorte","path":"scripts/InimigoEstadoMorte/InimigoEstadoMorte.yy",},},

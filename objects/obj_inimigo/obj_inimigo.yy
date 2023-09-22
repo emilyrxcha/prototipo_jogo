@@ -37,8 +37,8 @@
     "path": "sprites/spr_inimigo_parado/spr_inimigo_parado.yy",
   },
   "spriteMaskId": {
-    "name": "spr_inimigo_parado",
-    "path": "sprites/spr_inimigo_parado/spr_inimigo_parado.yy",
+    "name": "spr_inimigo_colisao",
+    "path": "sprites/spr_inimigo_colisao/spr_inimigo_colisao.yy",
   },
   "visible": true,
 }

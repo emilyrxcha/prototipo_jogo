@@ -10,7 +10,7 @@
   "option_windows_description_info": "Um jogo qualquer.",
   "option_windows_disable_sandbox": false,
   "option_windows_display_cursor": true,
-  "option_windows_display_name": "Plataforma",
+  "option_windows_display_name": "Jornada Mental",
   "option_windows_enable_steam": false,
   "option_windows_executable_name": "${game_tutorial}.exe",
   "option_windows_icon": "${base_options_dir}/windows/icons/icon.ico",
