@@ -63,6 +63,7 @@
     {"name":"spr_inimigo_parado","order":1,"path":"sprites/spr_inimigo_parado/spr_inimigo_parado.yy",},
     {"name":"spr_player_jumpInicial_","order":3,"path":"sprites/spr_player_jumpInicial_/spr_player_jumpInicial_.yy",},
     {"name":"JogadorEstadoAtaque","order":3,"path":"scripts/JogadorEstadoAtaque/JogadorEstadoAtaque.yy",},
+    {"name":"obj_menu","order":11,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"JogadorEstadoDano","order":6,"path":"scripts/JogadorEstadoDano/JogadorEstadoDano.yy",},
   ],
 }

@@ -85,6 +85,7 @@
     {"id":{"name":"spr_inimigo_parado","path":"sprites/spr_inimigo_parado/spr_inimigo_parado.yy",},},
     {"id":{"name":"spr_player_jumpInicial_","path":"sprites/spr_player_jumpInicial_/spr_player_jumpInicial_.yy",},},
     {"id":{"name":"JogadorEstadoAtaque","path":"scripts/JogadorEstadoAtaque/JogadorEstadoAtaque.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"JogadorEstadoDano","path":"scripts/JogadorEstadoDano/JogadorEstadoDano.yy",},},
     {"id":{"name":"rm1","path":"rooms/rm1/rm1.yy",},},
   ],
