@@ -80,12 +80,14 @@ script_execute(get_entrada)
 	//FIM DAS VIDAS
 	if global.vidaJogador < 1 {
 		//instance_create_layer(x, y, "Instances", obj_tempo);
-		morte();
+		//morte();
+		room_goto(roo_perdeu);
 	}
 	//CAIR
 	if (y > room_height){
-		game_restart();
-		morte();
+		//game_restart();
+		//morte();
+		room_goto(roo_perdeu);
 	}
 #endregion
 #region TROCA DE SPRITES

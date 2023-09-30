@@ -43,6 +43,7 @@
     {"id":{"name":"spr_jogador_pulando_cima","path":"sprites/spr_jogador_pulando_cima/spr_jogador_pulando_cima.yy",},},
     {"id":{"name":"spr_player_idle_","path":"sprites/spr_player_idle_/spr_player_idle_.yy",},},
     {"id":{"name":"spr_jogador_morto","path":"sprites/spr_jogador_morto/spr_jogador_morto.yy",},},
+    {"id":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},},
     {"id":{"name":"spr_player_running_","path":"sprites/spr_player_running_/spr_player_running_.yy",},},
     {"id":{"name":"InimigoEstadoPerseguicao","path":"scripts/InimigoEstadoPerseguicao/InimigoEstadoPerseguicao.yy",},},
     {"id":{"name":"spr_areacolisao","path":"sprites/spr_areacolisao/spr_areacolisao.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"spr_reinicia","path":"sprites/spr_reinicia/spr_reinicia.yy",},},
     {"id":{"name":"obj_vida","path":"objects/obj_vida/obj_vida.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
+    {"id":{"name":"roo_perdeu","path":"rooms/roo_perdeu/roo_perdeu.yy",},},
     {"id":{"name":"t_ground","path":"tilesets/t_ground/t_ground.yy",},},
     {"id":{"name":"spr_vidaInimigo","path":"sprites/spr_vidaInimigo/spr_vidaInimigo.yy",},},
     {"id":{"name":"obj_morte","path":"objects/obj_morte/obj_morte.yy",},},
@@ -80,6 +82,7 @@
     {"id":{"name":"obj_areaColisao","path":"objects/obj_areaColisao/obj_areaColisao.yy",},},
     {"id":{"name":"InimigoEstadoParado","path":"scripts/InimigoEstadoParado/InimigoEstadoParado.yy",},},
     {"id":{"name":"spr_vidaJogador","path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},},
+    {"id":{"name":"roo_venceu","path":"rooms/roo_venceu/roo_venceu.yy",},},
     {"id":{"name":"obj_flecha","path":"objects/obj_flecha/obj_flecha.yy",},},
     {"id":{"name":"spr_flecha","path":"sprites/spr_flecha/spr_flecha.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
@@ -92,6 +95,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm1","path":"rooms/rm1/rm1.yy",},},
+    {"roomId":{"name":"roo_venceu","path":"rooms/roo_venceu/roo_venceu.yy",},},
+    {"roomId":{"name":"roo_perdeu","path":"rooms/roo_perdeu/roo_perdeu.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

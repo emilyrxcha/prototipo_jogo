@@ -43,7 +43,8 @@ function InimigoEstadoParado(){
 		
 		if (global.inimigosRestantes == 0 && !global.inimigosMortos) {
         global.inimigosMortos = true;
-			morteInimigo();
+			room_goto(roo_venceu);
+			//morteInimigo();
 		}
 	}
 #endregion

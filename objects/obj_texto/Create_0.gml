@@ -1,0 +1,1 @@
+texto_tutorial = "Aperte a tecla Enter para atacar";
