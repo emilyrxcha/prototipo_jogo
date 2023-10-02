@@ -1,1 +1,1 @@
-texto_tutorial = "Aperte a tecla Enter para atacar";
+texto_menu= "Aperte 'M' para ir para o menu";
