@@ -46,7 +46,6 @@
     {"name":"spr_parede","order":1,"path":"sprites/spr_parede/spr_parede.yy",},
     {"name":"spr_inimigo_colisao","order":4,"path":"sprites/spr_inimigo_colisao/spr_inimigo_colisao.yy",},
     {"name":"InimigoEstadoAtaque","order":2,"path":"scripts/InimigoEstadoAtaque/InimigoEstadoAtaque.yy",},
-    {"name":"obj_reinicia","order":10,"path":"objects/obj_reinicia/obj_reinicia.yy",},
     {"name":"InimigoEstadoMorte","order":3,"path":"scripts/InimigoEstadoMorte/InimigoEstadoMorte.yy",},
     {"name":"obj_parede","order":1,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"spr_jogador_atacando_lado","order":5,"path":"sprites/spr_jogador_atacando_lado/spr_jogador_atacando_lado.yy",},
@@ -70,5 +69,6 @@
     {"name":"JogadorEstadoAtaque","order":3,"path":"scripts/JogadorEstadoAtaque/JogadorEstadoAtaque.yy",},
     {"name":"obj_menu","order":11,"path":"objects/obj_menu/obj_menu.yy",},
     {"name":"JogadorEstadoDano","order":6,"path":"scripts/JogadorEstadoDano/JogadorEstadoDano.yy",},
+    {"name":"roo_pausar","order":5,"path":"rooms/roo_pausar/roo_pausar.yy",},
   ],
 }

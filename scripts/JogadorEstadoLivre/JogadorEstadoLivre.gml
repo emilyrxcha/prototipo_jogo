@@ -79,14 +79,10 @@ script_execute(get_entrada)
 						
 	//FIM DAS VIDAS
 	if global.vidaJogador < 1 {
-		//instance_create_layer(x, y, "Instances", obj_tempo);
-		//morte();
 		room_goto(roo_perdeu);
 	}
 	//CAIR
 	if (y > room_height){
-		//game_restart();
-		//morte();
 		room_goto(roo_perdeu);
 	}
 #endregion
@@ -110,7 +106,7 @@ script_execute(get_entrada)
 	//parado
 	if hvlc = 0 {
 		if place_meeting(x,y+1,obj_parede){
-			sprite_index = spr_jogador_parado
+			sprite_index = spr_jogador_parado;
 		}
 	}
 	if hvlc != 0 {

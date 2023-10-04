@@ -12,6 +12,9 @@ if room = roo_inicio {
 		room_goto(rm1);
 	}
 }
+else if room == rm1 {
+	draw_text(260,70,texto_menu);
+}
 else if room == roo_menu {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
@@ -24,8 +27,8 @@ else if room == roo_menu {
 	draw_text_ext(largura/2, altura/9 * 7, "pausar = P", 80, 900);
 	draw_text_ext(largura/2, altura/9 * 8, "sair = X", 80, 900);
 }
-else if room == rm1 {
-	draw_text(260,70,texto_menu);
+else if room == roo_pausar {
+	draw_text_ext(largura/2, altura/2, "Jogo pausado", 80, 900);
 }
 else if room == roo_venceu {
 	draw_set_halign(fa_center);
