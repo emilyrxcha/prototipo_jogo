@@ -9,11 +9,17 @@ if room = roo_inicio {
 		draw_text_ext(largura/2, altura/3, "JORNADA MENTAL", 80, 900);
 	draw_text_ext(largura/2, altura/3 * 2, "Aperte 'I' para iniciar o jogo", 80, 900);
 	if tecla_iniciar {
-		room_goto(rm1);
+		room_goto(roo_1);
 	}
 }
-else if room == rm1 {
-	draw_text(260,70,texto_menu);
+else if room == roo_1 {
+	draw_text(largura/2, 40, "Fase 1");
+	draw_text(260,65,texto_menu);
+	draw_text(260, 85,"Inimigos Restantes: " + string(global.inimigosVivos));
+}
+else if room == roo_2 {
+	draw_text(largura/2, 40, "Fase 2");
+	draw_text(200, 70,"Inimigos Restantes: " + string(global.inimigosVivos));
 }
 else if room == roo_menu {
 	draw_set_halign(fa_center);

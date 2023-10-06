@@ -41,10 +41,14 @@ function InimigoEstadoParado(){
 		// Verifica se ainda existem inimigos vivos na sala
 		global.inimigosRestantes = instance_number(obj_inimigo);
 		
-		if (global.inimigosRestantes == 0 && !global.inimigosMortos) {
+		if (global.inimigosRestantes == 0 && !global.inimigosMortos && room=roo_1) {
+        global.inimigosMortos = true;
+			room_goto(roo_2);
+			//room_goto(roo_venceu);
+		}
+		if (global.inimigosRestantes == 0 && !global.inimigosMortos && room=roo_2) {
         global.inimigosMortos = true;
 			room_goto(roo_venceu);
-			//morteInimigo();
 		}
 	}
 #endregion

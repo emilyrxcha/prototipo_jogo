@@ -1,5 +1,4 @@
 script_execute(get_entrada)
-
 if tecla_menu {
 	if (room != roo_menu) {
 		if (instance_exists(obj_jogador)){
@@ -10,7 +9,7 @@ if tecla_menu {
 		room_goto(roo_menu);
 	}
 	else {
-		room_goto(rm1);
+		room_goto(roo_1);
 		instance_deactivate_all(true);
 	}
 }
@@ -27,7 +26,7 @@ if tecla_pausar {
 		room_goto(roo_pausar);
 	}
 	else {
-		room_goto(rm1);
+		room_goto(roo_1);
 		instance_deactivate_all(true);
 	}
 }

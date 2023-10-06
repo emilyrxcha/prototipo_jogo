@@ -23,15 +23,6 @@ script_execute(get_entrada)
 	if place_meeting(x,y+1,obj_parede)and tecla_pulo{
 		vvlc -=8;}
 #endregion
-/*
-#region ATAQUE
-	if tecla_ataque {
-		image_index = 0; //reseta a animação
-		estado = JogadorEstado.ATAQUE;  //muda o estado para atacando
-	//	instance_create_layer(x+20, y-8,"Instances",obj_areacolisao); //cria a área de colisão do ataque
-	}
-#endregion
-*/
 #region ATAQUE
 	var flipped = direction; //armazena a direção do tiro
 	var flecha_x = (x+4)*(flipped);
@@ -64,19 +55,7 @@ script_execute(get_entrada)
 		//}
 	}
 #endregion
-#region MORTE
-	//mensagem ->
-	function morte() {
-		//var resposta = show_question("Que pena "+ global.nomeUsuario +"! Você perdeu! Deseja iniciar outra partida?");
-		var resposta = show_question("Você perdeu. Deseja iniciar outra partida?");
-		if (resposta == true) {
-			game_restart();
-		} 
-		else {
-			game_end();
-		}
-	}
-						
+#region MORTE			
 	//FIM DAS VIDAS
 	if global.vidaJogador < 1 {
 		room_goto(roo_perdeu);
@@ -114,12 +93,8 @@ script_execute(get_entrada)
 			sprite_index = spr_jogador_correndo;
 		}
 	}
-	/*
 	//dano 
-	if (esfriar == 0){
-		sprite_index = spr_jogador_dano; //muda a srpite do personagem
-	}
-	*/
+	/*
 	//jogador morto
 	/*
 	if global.vida < 1 {
