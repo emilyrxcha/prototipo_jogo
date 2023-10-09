@@ -15,11 +15,11 @@ if room = roo_inicio {
 else if room == roo_1 {
 	draw_text(largura/2, 40, "Fase 1");
 	draw_text(260,65,texto_menu);
-	draw_text(260, 85,"Inimigos Restantes: " + string(global.inimigosVivos));
+	draw_text(260, 85,"Inimigos Restantes: " + string(global.inimigos1Vivos));
 }
 else if room == roo_2 {
 	draw_text(largura/2, 40, "Fase 2");
-	draw_text(200, 70,"Inimigos Restantes: " + string(global.inimigosVivos));
+	draw_text(200, 70,"Inimigos Restantes: " + string(global.inimigos1Vivos));
 }
 else if room == roo_menu {
 	draw_set_halign(fa_center);

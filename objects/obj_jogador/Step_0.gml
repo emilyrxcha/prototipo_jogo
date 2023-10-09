@@ -9,12 +9,6 @@ switch(estado) {
 	}
 #endregion
 
-/*
-if keyboard_check_pressed(ord("G")){
-	estado = PlayerState.FREEZE;
-}
-*/
-
 if esfriar > 0 {
 	esfriar--;
 }
