@@ -41,7 +41,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bf57b449-212d-48cd-900a-7e58c29bed84","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 9,
   "parent": {
     "name": "spr_jogador",
     "path": "folders/Sprites/spr_jogador.yy",
@@ -96,7 +96,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 144,
-    "yorigin": 128,
+    "yorigin": 127,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

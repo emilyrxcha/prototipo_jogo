@@ -1,1 +1,1 @@
-texto_menu= "Aperte 'M' para ir para o menu";
+texto_menu = "Aperte 'M' para ir para o menu";

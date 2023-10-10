@@ -9,4 +9,6 @@
 	tecla_reiniciar = keyboard_check_pressed(ord("R"));
 	tecla_pausar = keyboard_check_pressed(ord("P"));
 	tecla_sair = keyboard_check_pressed(ord("X"));
+	tecla_salvar = keyboard_check_pressed(ord("S"));
+	tecla_executar = keyboard_check_pressed(ord("E"));
 #endregion

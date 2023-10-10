@@ -13,6 +13,14 @@ if tecla_menu {
 		instance_deactivate_all(true);
 	}
 }
+if tecla_salvar {
+	game_save("jogo_salvo");
+	show_debug_message("O jogo foi salvo");
+}
+if tecla_executar {
+	game_load("jogo_salvo");
+	show_debug_message("O jogo salvo está em execução");
+}
 if tecla_reiniciar {
 	game_restart()
 }
@@ -33,8 +41,3 @@ if tecla_pausar {
 if tecla_sair {
 	game_end()
 }
-/*
-if tecla_voltar {
-	room_goto(rm1);
-}
-*/

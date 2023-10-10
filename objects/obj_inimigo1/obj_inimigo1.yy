@@ -33,10 +33,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
-  "spriteMaskId": {
+  "spriteId": {
     "name": "spr_inimigo1_parado",
     "path": "sprites/spr_inimigo1_parado/spr_inimigo1_parado.yy",
   },
+  "spriteMaskId": null,
   "visible": true,
 }

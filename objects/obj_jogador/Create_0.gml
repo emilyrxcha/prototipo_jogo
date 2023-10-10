@@ -8,6 +8,7 @@ global.flechas = instance_number(obj_inimigo1) * 2 + 1;
 global.danoFlecha = 1
 global.vidaJogador = 4;
 global.inimigos1Mortos = false;
+global.inimigos2Mortos = false;
 danoEspera = 5; // Número de frames para aguardar antes de restaurar a sprite
 danoTempo = 0; // Temporizador para controlar o tempo decorrido desde o dano
 image_speed = 0.6; //velocidade da animação

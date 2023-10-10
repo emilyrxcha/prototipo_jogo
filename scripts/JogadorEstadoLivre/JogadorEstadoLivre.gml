@@ -5,7 +5,7 @@ script_execute(get_entrada)
 	hvlc = move * vlc;
 	vvlc = vvlc + grv;
 	//COLISAO HORIZONTAL
-	if place_meeting(x+hvlc,y,obj_parede){
+	if place_meeting(x+hvlc,y,obj_parede) {
 		while(!place_meeting(x+sign(hvlc),y,obj_parede)){
 			x = x + sign(hvlc);
 		}
