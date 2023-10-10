@@ -33,7 +33,7 @@ script_execute(get_entrada)
 		estado = JogadorEstado.ATAQUE;  //muda o estado para atacando
 		//if (image_index >= image_number -6 && image_index <= image_number -7) {
 		//audio...
-		with (instance_create_layer(_xx,y-50,"Flecha",obj_flecha)){
+		with (instance_create_layer(_xx,y-34.5,"Flecha",obj_flecha)){
 			//show_message("Criou uma flecha");
 			global.flechas--;
 			speed = 20;

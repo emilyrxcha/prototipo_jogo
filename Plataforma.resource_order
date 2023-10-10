@@ -1,13 +1,13 @@
 {
   "FolderOrderSettings": [
-    {"name":"spr_inimigo2","order":1,"path":"folders/Sprites/spr_inimigo2.yy",},
     {"name":"scr_inimigo2","order":1,"path":"folders/Scripts/scr_inimigo2.yy",},
+    {"name":"spr_inimigo2","order":1,"path":"folders/Sprites/spr_inimigo2.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"spr_inimigo2_atacando","order":2,"path":"sprites/spr_inimigo2_atacando/spr_inimigo2_atacando.yy",},
-    {"name":"obj_inimigo2","order":1,"path":"objects/obj_inimigo2/obj_inimigo2.yy",},
+    {"name":"spr_inimigo2_parado","order":2,"path":"sprites/spr_inimigo2_parado/spr_inimigo2_parado.yy",},
     {"name":"Inimigo2EstadoParado","order":1,"path":"scripts/Inimigo2EstadoParado/Inimigo2EstadoParado.yy",},
-    {"name":"Inimigo2EstadoPerseguicao","order":2,"path":"scripts/Inimigo2EstadoPerseguicao/Inimigo2EstadoPerseguicao.yy",},
     {"name":"spr_inimigo2_correndo","order":1,"path":"sprites/spr_inimigo2_correndo/spr_inimigo2_correndo.yy",},
+    {"name":"Inimigo2EstadoPerseguicao","order":2,"path":"scripts/Inimigo2EstadoPerseguicao/Inimigo2EstadoPerseguicao.yy",},
+    {"name":"obj_inimigo2","order":1,"path":"objects/obj_inimigo2/obj_inimigo2.yy",},
   ],
 }

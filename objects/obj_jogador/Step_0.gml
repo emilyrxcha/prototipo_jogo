@@ -12,3 +12,11 @@ switch(estado) {
 if esfriar > 0 {
 	esfriar--;
 }
+
+if room == roo_1 {
+	global.flechas = instance_number(obj_inimigo1) * 2 + 1;
+}
+
+if room == roo_2 {
+	global.flechas = instance_number(obj_inimigo2) * 2 + 1;
+}

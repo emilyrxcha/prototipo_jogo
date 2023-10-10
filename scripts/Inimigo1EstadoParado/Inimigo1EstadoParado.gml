@@ -24,18 +24,6 @@ function Inimigo1EstadoParado(){
 		
 	}
 #region MORTE
-	//mensagem ->
-	function morteInimigo1(){
-		//var resposta = show_question("Parabéns " + global.nomeUsuario + "! Você ganhou!Deseja iniciar outra partida?");
-		var resposta = show_question("Você ganhou! Deseja iniciar outra partida?");
-		if (resposta == true) {
-			game_restart();
-		} 
-		else {
-			game_end();
-		}
-	}
-	
 	if vidaInimigo1 <= 0 {
 		instance_destroy();
 		// Verifica se ainda existem inimigos vivos na sala

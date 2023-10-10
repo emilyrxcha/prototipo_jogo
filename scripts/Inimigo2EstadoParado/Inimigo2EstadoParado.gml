@@ -1,4 +1,4 @@
-function Inimigo2EstadoParado(){
+function Inimigo2EstadoParado() {
 	//script_execute(get_entrada)
 	#region MOVIMENTACAO
 	vvlc = vvlc + grv;
@@ -24,18 +24,6 @@ function Inimigo2EstadoParado(){
 		
 	}
 #region MORTE
-	//mensagem ->
-	function morteInimigo2(){
-		//var resposta = show_question("Parabéns " + global.nomeUsuario + "! Você ganhou!Deseja iniciar outra partida?");
-		var resposta = show_question("Você ganhou! Deseja iniciar outra partida?");
-		if (resposta == true) {
-			game_restart();
-		} 
-		else {
-			game_end();
-		}
-	}
-	
 	if vidaInimigo2 <= 0 {
 		instance_destroy();
 		// Verifica se ainda existem inimigos vivos na sala
