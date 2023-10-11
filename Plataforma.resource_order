@@ -6,8 +6,14 @@
   "ResourceOrderSettings": [
     {"name":"spr_inimigo2_parado","order":2,"path":"sprites/spr_inimigo2_parado/spr_inimigo2_parado.yy",},
     {"name":"Inimigo2EstadoParado","order":1,"path":"scripts/Inimigo2EstadoParado/Inimigo2EstadoParado.yy",},
+    {"name":"obj_opcoes","order":3,"path":"objects/obj_opcoes/obj_opcoes.yy",},
     {"name":"spr_inimigo2_correndo","order":1,"path":"sprites/spr_inimigo2_correndo/spr_inimigo2_correndo.yy",},
     {"name":"Inimigo2EstadoPerseguicao","order":2,"path":"scripts/Inimigo2EstadoPerseguicao/Inimigo2EstadoPerseguicao.yy",},
+    {"name":"spr_tileset","order":2,"path":"sprites/spr_tileset/spr_tileset.yy",},
+    {"name":"obj_inicio","order":2,"path":"objects/obj_inicio/obj_inicio.yy",},
+    {"name":"fon_principal","order":1,"path":"fonts/fon_principal/fon_principal.yy",},
+    {"name":"til_tileset","order":1,"path":"tilesets/til_tileset/til_tileset.yy",},
     {"name":"obj_inimigo2","order":1,"path":"objects/obj_inimigo2/obj_inimigo2.yy",},
+    {"name":"spr_vidaJogador","order":3,"path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},
   ],
 }
