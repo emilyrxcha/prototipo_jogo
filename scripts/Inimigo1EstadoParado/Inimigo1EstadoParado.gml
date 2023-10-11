@@ -32,11 +32,6 @@ function Inimigo1EstadoParado(){
 		if (global.inimigos1Restantes == 0 && !global.inimigos1Mortos && room=roo_1) {
         global.inimigos1Mortos = true;
 			room_goto(roo_2);
-			//room_goto(roo_venceu);
-		}
-		if (global.inimigos1Restantes == 0 && !global.inimigos1Mortos && room=roo_2) {
-        global.inimigos1Mortos = true;
-			room_goto(roo_venceu);
 		}
 	}
 #endregion

@@ -4,7 +4,7 @@
   "name": "spr_jogador_pulando_baixo",
   "bbox_bottom": 124,
   "bbox_left": 140,
-  "bbox_right": 160,
+  "bbox_right": 157,
   "bbox_top": 77,
   "bboxMode": 2,
   "collisionKind": 1,

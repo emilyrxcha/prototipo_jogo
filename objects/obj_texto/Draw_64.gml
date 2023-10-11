@@ -16,32 +16,23 @@ if room == roo_1 {
 	draw_text(260, 65, texto_menu);
 	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigos1Vivos));
 }
+if room == roo_tutorial {
+	draw_text(largura/2, 40, "Tutorial");
+	draw_text(260, 65, texto_menu);
+	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigosTVivos));
+}
 else if room == roo_2 {
 	draw_text(largura/2, 40, "Fase 2");
 	draw_text(260, 65, texto_menu);
 	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigos2Vivos));
 }
-/*
-else if room == roo_opcoes {
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_middle);
-	draw_text_ext(largura/2, altura/9, "MENU", 80, 900);
-	draw_text_ext(largura/2, altura/9 * 2, "direita = direita ou D", 80, 900);
-	draw_text_ext(largura/2, altura/9 * 3, "esquerda = esquerda ou A", 80, 900);
-	draw_text_ext(largura/2, altura/9 * 4, "pulo = espaco ou W ou cima", 80, 900);
-	draw_text_ext(largura/2, altura/9 * 5, "ataque = enter", 80, 900);
-	draw_text_ext(largura/2, altura/9 * 6, "reiniciar = R", 80, 900);
-	draw_text_ext(largura/2, altura/9 * 7, "pausar = P", 80, 900);
-	draw_text_ext(largura/2, altura/9 * 8, "sair = X", 80, 900);
-}
-*/
 else if room == roo_venceu {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text_ext(largura/2, altura/2, "Voce venceu! Aperte 'R' para reiniciar ou 'X' para sair", 80, 900);
+	draw_text_ext(largura/2, altura/2, "Você venceu!", 80, 900);
 }
 else if room = roo_perdeu {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text_ext(largura/2, altura/2, "Voce perdeu! Aperte 'R' para reiniciar ou 'X' para sair", 80, 900);
+	draw_text_ext(largura/2, altura/2, "Você perdeu!", 80, 900);
 }

@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_inimigo2_atacando",
   "bbox_bottom": 126,
-  "bbox_left": 126,
+  "bbox_left": 127,
   "bbox_right": 201,
   "bbox_top": 90,
   "bboxMode": 2,

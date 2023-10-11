@@ -20,3 +20,7 @@ if room == roo_1 {
 if room == roo_2 {
 	global.flechas = instance_number(obj_inimigo2) * 2 + 1;
 }
+
+if room == roo_tutorial {
+	global.flechas = instance_number(obj_inimigoT) * 2 + 1;
+}

@@ -29,11 +29,6 @@ function Inimigo2EstadoParado() {
 		// Verifica se ainda existem inimigos vivos na sala
 		global.inimigos2Restantes = instance_number(obj_inimigo2);
 		
-		if (global.inimigos2Restantes == 0 && !global.inimigos2Mortos && room=roo_1) {
-        global.inimigos2Mortos = true;
-			room_goto(roo_2);
-			//room_goto(roo_venceu);
-		}
 		if (global.inimigos2Restantes == 0 && !global.inimigos2Mortos && room=roo_2) {
         global.inimigos2Mortos = true;
 			room_goto(roo_venceu);

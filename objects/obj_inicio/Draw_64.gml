@@ -25,14 +25,18 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 			if (selecionada == 0){
 				room_goto(roo_1);
 			}
-			/*
 			if (selecionada == 1){
 				game_load("jogo_salvo");
 				show_debug_message("Jogo salvo em execução");
 			}
-			*/
+			if (selecionada == 2){
+				room_goto(roo_tutorial);
+			}
 			if (selecionada == 3){
 				game_end();
+			}
+			if (selecionada == 4){
+				room_goto(roo_sobre);
 			}
 		}
 	}

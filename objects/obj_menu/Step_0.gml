@@ -14,17 +14,3 @@ if tecla_menu {
 		instance_deactivate_all(true);
 	}
 }
-if tecla_salvar {
-	game_save("jogo_salvo");
-	show_debug_message("Jogo salvo");
-}
-if tecla_executar {
-	game_load("jogo_salvo");
-	show_debug_message("Jogo salvo em execução");
-}
-if tecla_reiniciar {
-	game_restart()
-}
-if tecla_sair {
-	game_end()
-}
