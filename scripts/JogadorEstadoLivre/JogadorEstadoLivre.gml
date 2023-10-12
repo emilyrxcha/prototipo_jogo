@@ -1,4 +1,5 @@
 function JogadorEstadoLivre(vlc){
+draw_set_font(fon_principal);
 script_execute(get_entrada)
 #region MOVIMENTACAO
 	var move = tecla_direita - tecla_esquerda;

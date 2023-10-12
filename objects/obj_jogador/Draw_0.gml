@@ -1,3 +1,4 @@
+draw_set_font(fon_principal);
 var x_offset = 0; //posição horizontal desejada em relação ao jogador.
 var y_offset = -80; //posição vertical acima do jogador.
 

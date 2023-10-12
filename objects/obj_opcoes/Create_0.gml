@@ -1,3 +1,3 @@
-opcoesMenu = ["tela inicial", "novo jogo", "carregar jogo salvo", "salvar", "reiniciar fase","reiniciar jogo", "sair"];
+opcoesMenu = ["voltar ao jogo", "tela inicial", "novo jogo", "carregar jogo salvo", "salvar", "reiniciar fase","reiniciar jogo", "sair"];
 opcoesQtd = array_length(opcoesMenu);
 selecionada = 0;

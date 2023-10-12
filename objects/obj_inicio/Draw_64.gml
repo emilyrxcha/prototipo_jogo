@@ -1,4 +1,5 @@
 draw_set_font(fon_menu);
+
 var guiW = display_get_gui_width();
 var guiH = display_get_gui_height();
 

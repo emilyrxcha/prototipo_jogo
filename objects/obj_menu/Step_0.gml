@@ -1,4 +1,6 @@
+
 script_execute(get_entrada)
+
 if tecla_menu {
 	if (room != roo_opcoes) {
 		if (instance_exists(obj_jogador)){

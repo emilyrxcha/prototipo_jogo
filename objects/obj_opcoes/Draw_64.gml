@@ -22,20 +22,22 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 		draw_set_color(c_black);
 		selecionada = i;
 		if (mouse_check_button(mb_left)){
-			if (selecionada == 0) {
+			if (selecionada == 1) {
 				room_goto(roo_inicio);
 			}
-			if (selecionada == 1) {
-				room_goto(roo_1);
+			/*
+			if (selecionada == 2) {
+				
 			}
-			if (selecionada == 2){
+			*/
+			if (selecionada == 4){
 				game_save("jogo_salvo");
 				show_debug_message("Jogo salvo");
 			}
-			if (selecionada == 5){
+			if (selecionada == 6){
 				game_restart();
 			}
-			if (selecionada == 6){
+			if (selecionada == 7){
 				game_end();
 			}
 		}
