@@ -1,0 +1,1 @@
+global.inimigosAguaVivos -= 1;

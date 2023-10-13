@@ -1,0 +1,1 @@
+global.inimigosVentoVivos -= 1;

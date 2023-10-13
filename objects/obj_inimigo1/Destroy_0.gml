@@ -1,1 +1,0 @@
-global.inimigos1Vivos -= 1;

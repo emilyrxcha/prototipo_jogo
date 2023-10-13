@@ -2,13 +2,13 @@
 script_execute(get_entrada)
 
 if tecla_menu {
-	if (room != roo_opcoes) {
+	if (room != cen_opcoes) {
 		if (instance_exists(obj_jogador)){
 			obj_jogador.persistent = false;
 			pausado = true;
 			instance_activate_all()
 		}
-		room_goto(roo_opcoes);
+		room_goto(cen_opcoes);
 	}
 	else {
 		room_goto(roo_1);

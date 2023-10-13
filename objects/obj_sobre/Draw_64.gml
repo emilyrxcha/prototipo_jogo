@@ -23,7 +23,7 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 		selecionada = i;
 		if (mouse_check_button(mb_left)){
 			if (selecionada == 0){
-				room_goto(roo_inicio);
+				room_goto(cen_inicio);
 			}
 			if (selecionada == 1){
 				game_end();

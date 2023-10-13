@@ -1,0 +1,1 @@
+global.inimigosCristalVivos -= 1;

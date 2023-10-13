@@ -1,1 +1,0 @@
-global.inimigosTVivos -= 1;

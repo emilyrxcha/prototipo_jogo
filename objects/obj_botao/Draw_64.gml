@@ -11,7 +11,7 @@ var y2 = 60;
 if point_in_rectangle(xm, ym, x1, y1, x2, y2){
 	balfa = .6;
 	if (mouse_check_button(mb_left)){
-		room_goto(roo_opcoes);
+		room_goto(cen_opcoes);
 		show_debug_message("Clicou no botão");
 	}
 	else{

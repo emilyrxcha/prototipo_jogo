@@ -16,7 +16,8 @@ script_execute(get_entrada)
 	//COLISAO VERTICAL
 	if place_meeting(x,y+vvlc,obj_parede){
 		while(!place_meeting(x,y+sign(vvlc),obj_parede)){
-			y = y + sign(vvlc);}
+			y = y + sign(vvlc);
+		}
 		vvlc = 0;
 		}
 	y = y + vvlc;

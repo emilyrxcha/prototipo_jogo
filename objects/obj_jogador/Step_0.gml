@@ -13,14 +13,26 @@ if esfriar > 0 {
 	esfriar--;
 }
 
-if room == roo_1 {
-	global.flechas = instance_number(obj_inimigo1) * 2 + 1;
+if room == cen_metal {
+	global.flechas = instance_number(obj_inimigo_metal) * 2 + 1;
 }
 
-if room == roo_2 {
-	global.flechas = instance_number(obj_inimigo2) * 2 + 1;
+if room == cen_agua {
+	global.flechas = instance_number(obj_inimigo_agua) * 2 + 1;
 }
 
-if room == roo_tutorial {
-	global.flechas = instance_number(obj_inimigoT) * 2 + 1;
+if room == cen_terra {
+	global.flechas = instance_number(obj_inimigo_terra) * 2 + 1;
+}
+
+if room == cen_cristal {
+	global.flechas = instance_number(obj_inimigo_cristal) * 2 + 1;
+}
+
+if room == cen_vento {
+	global.flechas = instance_number(obj_inimigo_vento) * 2 + 1;
+}
+
+if room == cen_fogo {
+	global.flechas = instance_number(obj_inimigo_fogo) * 2 + 1;
 }
