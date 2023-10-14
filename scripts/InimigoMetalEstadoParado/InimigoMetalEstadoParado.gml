@@ -20,8 +20,7 @@ function InimigoMetalEstadoParado(){
 			if distance_to_object(obj_jogador) < distancia {
 			estado = InimigoMetalEstado.PERSEGUICAO;
 			sprite_index = spr_metal_correndo;
-		}
-		
+		}		
 	}
 #region MORTE
 	if vidaInimigoMetal <= 0 {

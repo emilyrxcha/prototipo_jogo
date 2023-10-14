@@ -2,6 +2,9 @@ function JogadorEstadoLivre(vlc){
 draw_set_font(fon_principal);
 script_execute(get_entrada)
 #region MOVIMENTACAO
+	if place_meeting(x, y + 1, obj_parede) {
+	    pulos = 0; // Reinicia o contador de pulos
+	}
 	var move = tecla_direita - tecla_esquerda;
 	hvlc = move * vlc;
 	vvlc = vvlc + grv;
@@ -21,9 +24,16 @@ script_execute(get_entrada)
 		vvlc = 0;
 		}
 	y = y + vvlc;
-	//JUMP
-	if place_meeting(x,y+1,obj_parede)and tecla_pulo{
-		vvlc -=8;}
+	//PULO
+	if place_meeting(x,y+1,obj_parede) and tecla_pulo {
+		//if (pulos > 0){
+	        vvlc = -8;
+			pulos = pulos - 1;
+		//}
+	}
+	if (place_meeting(x, y+1, obj_parede)) { 
+		pulos = 2 
+	}
 #endregion
 #region ATAQUE
 	var flipped = direction; //armazena a direção do tiro
@@ -47,11 +57,11 @@ script_execute(get_entrada)
 #region MORTE			
 	//FIM DAS VIDAS
 	if global.vidaJogador < 1 {
-		room_goto(roo_perdeu);
+		room_goto(cen_perdeu);
 	}
 	//CAIR
 	if (y > room_height){
-		room_goto(roo_perdeu);
+		room_goto(cen_perdeu);
 	}
 #endregion
 #region TROCA DE SPRITES
@@ -91,4 +101,11 @@ script_execute(get_entrada)
 	}
 	*/
 #endregion
+/*
+#region DASH
+	if keyboard_check(ord("F")){
+		estado = JogadorEstadoDash;
+	}
+#endregion
+*/
 }

@@ -18,7 +18,7 @@ function InimigoCristalEstadoParado(){
 	
 		if(hvlc!=0) image_xscale=sign(hvlc); //TROCA O LADO DO SPRITE
 			if distance_to_object(obj_jogador) < distancia {
-			estado = InimigoTEstado.PERSEGUICAO;
+			estado = InimigoCristalEstado.PERSEGUICAO;
 			sprite_index = spr_cristal_correndo;
 		}
 		

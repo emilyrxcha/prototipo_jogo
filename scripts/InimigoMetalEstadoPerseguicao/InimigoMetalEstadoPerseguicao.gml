@@ -9,16 +9,21 @@ function InimigoMetalEstadoPerseguicao(){
 		vir = sign(obj_jogador.x - x);
 		image_xscale=sign(vir);
 	}
-	
 	//VELOCIDADE
-	hvlc = vir * 4;
+	hvlc = vir * 2;
 	if place_meeting(x+hvlc,y,obj_parede){
 		while(!place_meeting(x+sign(hvlc),y,obj_parede)){
-			x = x + sign(hvlc);}
+			x = x + sign(hvlc);
+		}
+		hvlc = 0;
+	}
+	if place_meeting(x+hvlc,y,obj_parede_inimigo){
+		while(!place_meeting(x+sign(hvlc),y,obj_parede_inimigo)){
+			x = x + sign(hvlc);
+		}
 		hvlc = 0;
 	}
 	x = x + hvlc;
-	
 	//COLISAO VERTICAL
 	if place_meeting(x,y+vvlc,obj_parede){
 		while(!place_meeting(x,y+sign(vvlc),obj_parede)){
@@ -29,14 +34,15 @@ function InimigoMetalEstadoPerseguicao(){
 	y = y + vvlc;
 	#endregion
 	//TROCA O LADO DO SPRITE
+	/*
 	if (abs(vir)){
 		
 	}
-		
+		*/
 	if distance_to_object(obj_jogador) > distancia {
 		estado = InimigoMetalEstado.PARADO;
 	}
-	if distance_to_object(obj_jogador) < 5 && vvlc = 0{
+	if distance_to_object(obj_jogador) < 5 && vvlc = 0 {
 		estado = InimigoMetalEstado.ATAQUE;
 	}
 }

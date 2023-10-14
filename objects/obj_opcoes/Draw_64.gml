@@ -23,6 +23,9 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 		selecionada = i;
 		if (mouse_check_button(mb_left)){
 			if (selecionada == 1) {
+				room_goto_previous();
+			}
+			if (selecionada == 1) {
 				room_goto(cen_inicio);
 			}
 			/*

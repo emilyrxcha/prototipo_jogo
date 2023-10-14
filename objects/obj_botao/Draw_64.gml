@@ -11,8 +11,18 @@ var y2 = 60;
 if point_in_rectangle(xm, ym, x1, y1, x2, y2){
 	balfa = .6;
 	if (mouse_check_button(mb_left)){
-		room_goto(cen_opcoes);
 		show_debug_message("Clicou no botão");
+		if (room != cen_opcoes) {
+			if (instance_exists(obj_jogador)){
+				obj_jogador.persistent = false;
+				instance_activate_all()
+		}
+		room_goto(cen_opcoes);
+	}
+	else {
+		room_goto_previous();
+		instance_deactivate_all(true);
+	}
 	}
 	else{
 		balfa = 1;
