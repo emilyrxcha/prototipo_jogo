@@ -4,15 +4,17 @@
   "name": "obj_botao",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "obj_botoes",
+    "path": "folders/Objetos/obj_botoes.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_botoes",
+    "path": "objects/obj_botoes/obj_botoes.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
