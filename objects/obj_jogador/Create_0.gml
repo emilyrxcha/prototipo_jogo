@@ -4,7 +4,8 @@ vvlc = 0; //velocidade vertical
 grv = 0.4; //força da gravidade
 esfriar = 1 * room_speed; //romm_speed: quantidade de quadros que são processados por segundo
 
-pulos = 2;
+max_pulos = 2;
+pulos = max_pulos;
 
 //distanciaDano = 100; //distância máxima desejada
 global.flechas = 0;

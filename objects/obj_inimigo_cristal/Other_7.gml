@@ -1,3 +1,3 @@
-if sprite_index = spr_cristal_atacando{
-		estado = InimigCristalEstado.PARADO;
+if sprite_index = spr_cristal_atacando {
+		estado = InimigoCristalEstado.PARADO;
 }

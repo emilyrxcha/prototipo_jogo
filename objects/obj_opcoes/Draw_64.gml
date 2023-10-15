@@ -22,25 +22,25 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 		draw_set_color(c_black);
 		selecionada = i;
 		if (mouse_check_button(mb_left)){
-			if (selecionada == 1) {
+			if (selecionada == 0) {
 				room_goto_previous();
+				show_debug_message("Voltou para o jogo");
 			}
 			if (selecionada == 1) {
 				room_goto(cen_inicio);
+				show_debug_message("Foi para a tela inicial");
 			}
-			/*
-			if (selecionada == 2) {
-				
-			}
-			*/
-			if (selecionada == 4){
+			if (selecionada == 2){
 				game_save("jogo_salvo");
-				show_debug_message("Jogo salvo");
+				show_debug_message("Salvou o jogo");
 			}
-			if (selecionada == 6){
+			if (selecionada == 3){
+				//room_goto_previous();
+			}
+			if (selecionada == 4){
 				game_restart();
 			}
-			if (selecionada == 7){
+			if (selecionada == 5){
 				game_end();
 			}
 		}

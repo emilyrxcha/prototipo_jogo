@@ -17,8 +17,13 @@ function InimigoCristalEstadoPerseguicao(){
 			x = x + sign(hvlc);}
 		hvlc = 0;
 	}
+		if place_meeting(x+hvlc,y,obj_parede_inimigo){
+		while(!place_meeting(x+sign(hvlc),y,obj_parede_inimigo)){
+			x = x + sign(hvlc);
+		}
+		hvlc = 0;
+	}
 	x = x + hvlc;
-	
 	//COLISAO VERTICAL
 	if place_meeting(x,y+vvlc,obj_parede){
 		while(!place_meeting(x,y+sign(vvlc),obj_parede)){
@@ -28,11 +33,6 @@ function InimigoCristalEstadoPerseguicao(){
 	}
 	y = y + vvlc;
 	#endregion
-	//TROCA O LADO DO SPRITE
-	if (abs(vir)){
-		
-	}
-		
 	if distance_to_object(obj_jogador) > distancia {
 		estado = InimigoCristalEstado.PARADO;
 	}

@@ -25,14 +25,8 @@ script_execute(get_entrada)
 		}
 	y = y + vvlc;
 	//PULO
-	if place_meeting(x,y+1,obj_parede) and tecla_pulo {
-		//if (pulos > 0){
-	        vvlc = -8;
-			pulos = pulos - 1;
-		//}
-	}
-	if (place_meeting(x, y+1, obj_parede)) { 
-		pulos = 2 
+	if (place_meeting(x,y+1,obj_parede) &&  tecla_pulo) {
+		vvlc = -8;
 	}
 #endregion
 #region ATAQUE
