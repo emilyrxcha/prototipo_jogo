@@ -36,10 +36,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_terra_parado",
-    "path": "sprites/spr_terra_parado/spr_terra_parado.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

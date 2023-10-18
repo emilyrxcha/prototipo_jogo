@@ -30,5 +30,5 @@ if point_in_rectangle(xm, ym, x1, y1, x2, y2){
 }
 draw_set_alpha(balfa);
 draw_button(x1, y1, x2, y2, !mouse_check_button(mb_left));
-draw_text_color(1290 , 45, "opções",c_black,c_black,c_black,c_black,balfa);
+draw_text_color(1290 , 45, "Opções",c_black,c_black,c_black,c_black,balfa);
 draw_set_alpha(1);

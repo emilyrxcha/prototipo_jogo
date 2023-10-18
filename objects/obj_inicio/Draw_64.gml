@@ -36,10 +36,13 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 				room_goto(cen_cristal);
 			}
 			if (selecionada == 3){
-				game_end();
+				room_goto(cen_personagens);
 			}
 			if (selecionada == 4){
 				room_goto(cen_sobre);
+			}
+			if (selecionada == 5){
+				game_end();
 			}
 		}
 	}

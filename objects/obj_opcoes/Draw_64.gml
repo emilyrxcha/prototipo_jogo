@@ -1,9 +1,10 @@
 draw_set_font(fon_menu);
-var guiW = display_get_gui_width();
-var guiH = display_get_gui_height();
 
-var x1 = guiW / 2;
-var y1 = guiH / 2;
+var guiL = display_get_gui_width();
+var guiA = display_get_gui_height();
+
+var x1 = guiL / 2;
+var y1 = guiA / 3;
 var xm = device_mouse_x_to_gui(0);
 var ym = device_mouse_y_to_gui(0);
 
@@ -15,10 +16,10 @@ draw_set_valign(fa_middle);
 for (var i = 0 ; i < opcoesQtd ; i++) {
 	var y2 = y1 + (margem * i);
 	
-	var stringW = string_width(opcoesMenu[i]);
-	var stringH = string_height(opcoesMenu[i]);
+	var stringL = string_width(opcoesMenu[i]);
+	var stringA= string_height(opcoesMenu[i]);
 	
-	if (point_in_rectangle(xm, ym, x1 - stringW / 2, y2 - stringH /2, x1 + stringW / 2, y2 + stringH / 2)){
+	if (point_in_rectangle(xm, ym, x1 - stringL/2, y2 - stringA/2, x1 + stringL/2, y2 + stringA/2)) {
 		draw_set_color(c_black);
 		selecionada = i;
 		if (mouse_check_button(mb_left)){
@@ -32,16 +33,18 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 			}
 			if (selecionada == 2){
 				game_save("jogo_salvo");
-				show_debug_message("Salvou o jogo");
+				show_debug_message("Salvou a partida");
 			}
 			if (selecionada == 3){
 				//room_goto_previous();
 			}
 			if (selecionada == 4){
 				game_restart();
+				show_debug_message("Reiniciou o jogo");
 			}
 			if (selecionada == 5){
 				game_end();
+				show_debug_message("Fechou o jogo");
 			}
 		}
 	}
