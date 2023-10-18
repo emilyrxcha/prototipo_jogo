@@ -1,3 +1,3 @@
 //opcoesSobre = ["tela inicial", "sair"];
-opcoesQtd = array_length(opcoesSobre);
+//opcoesQtd = array_length(opcoesSobre);
 //selecionada = 0;

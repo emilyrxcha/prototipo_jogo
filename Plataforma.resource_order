@@ -26,6 +26,7 @@
     {"name":"Sons","order":13,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":14,"path":"folders/Sprites.yy",},
     {"name":"spr_flecha","order":10,"path":"folders/Sprites/spr_flecha.yy",},
+    {"name":"spr_icones","order":13,"path":"folders/Sprites/spr_icones.yy",},
     {"name":"spr_inimigos","order":8,"path":"folders/Sprites/spr_inimigos.yy",},
     {"name":"spr_cristal","order":1,"path":"folders/Sprites/spr_inimigos/spr_cristal.yy",},
     {"name":"spr_fogo","order":2,"path":"folders/Sprites/spr_inimigos/spr_fogo.yy",},
@@ -33,7 +34,6 @@
     {"name":"spr_terra","order":5,"path":"folders/Sprites/spr_inimigos/spr_terra.yy",},
     {"name":"spr_vento","order":6,"path":"folders/Sprites/spr_inimigos/spr_vento.yy",},
     {"name":"spr_jogador","order":9,"path":"folders/Sprites/spr_jogador.yy",},
-    {"name":"spr_icones","order":13,"path":"folders/Sprites/spr_icones.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"JogadorEstadoMorte","order":4,"path":"scripts/JogadorEstadoMorte/JogadorEstadoMorte.yy",},

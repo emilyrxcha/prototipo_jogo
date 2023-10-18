@@ -12,7 +12,7 @@ var margem = 50;
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-
+/*
 for (var i = 0 ; i < opcoesQtd ; i++) {
 	var y2 = y1 + (margem * i);
 	
@@ -37,4 +37,5 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 	
 	draw_text(x1, y2, opcoesSobre[i]);
 	*/
-}
+//}
+draw_text(x1, y1, "Teste");
