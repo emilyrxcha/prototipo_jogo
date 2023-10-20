@@ -36,7 +36,10 @@ function InimigoCristalEstadoPerseguicao(){
 	if distance_to_object(obj_jogador) > distancia {
 		estado = InimigoCristalEstado.PARADO;
 	}
-	if distance_to_object(obj_jogador) < 5 && vvlc = 0{
+	if distance_to_object(obj_jogador) < 5 && vvlc = 0 {
 		estado = InimigoCristalEstado.ATAQUE;
+	}
+	if (hvlc = 0) {
+		sprite_index = spr_cristal_parado;
 	}
 }

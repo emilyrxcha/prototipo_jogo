@@ -1,0 +1,1 @@
+global.faseAtual = noone;
