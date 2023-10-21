@@ -42,7 +42,7 @@
     {"name":"spr_metal_chefe","order":1,"path":"sprites/spr_metal_chefe/spr_metal_chefe.yy",},
     {"name":"cen_sobre","order":7,"path":"rooms/cen_sobre/cen_sobre.yy",},
     {"name":"obj_texto","order":1,"path":"objects/obj_texto/obj_texto.yy",},
-    {"name":"obj_personagens","order":20,"path":"objects/obj_personagens/obj_personagens.yy",},
+    {"name":"obj_personagens","order":3,"path":"objects/obj_personagens/obj_personagens.yy",},
     {"name":"spr_icone_vento","order":5,"path":"sprites/spr_icone_vento/spr_icone_vento.yy",},
     {"name":"obj_chefe","order":1,"path":"objects/obj_chefe/obj_chefe.yy",},
     {"name":"spr_flecha_ramo","order":1,"path":"sprites/spr_flecha_ramo/spr_flecha_ramo.yy",},

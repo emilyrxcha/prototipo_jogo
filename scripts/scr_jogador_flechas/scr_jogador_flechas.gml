@@ -13,7 +13,7 @@ function scr_jogador_flechas(){
 		}
 
 		if room == cen_cristal {
-			global.flechas = instance_number(obj_inimigo_cristal) * 2 + 1;
+			global.flechas = instance_number(obj_inimigo_cristal) * 2 + instance_number (obj_chefe_cristal) * 2 + 1;
 		}
 
 		if room == cen_vento {

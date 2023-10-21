@@ -1,4 +1,3 @@
-scr_jogador_flechas();
 switch(estado) {
 	case JogadorEstado.LIVRE: JogadorEstadoLivre(vlc); break;
 	case JogadorEstado.ATAQUE: JogadorEstadoAtaque(); break;

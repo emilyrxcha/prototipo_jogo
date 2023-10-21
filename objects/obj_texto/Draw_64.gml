@@ -14,8 +14,7 @@ if room == cen_metal {
 }
 if room == cen_cristal {
 	draw_text(largura/2, 40, "Cristal");
-	//draw_text(260, 65, texto_menu);
-	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigosCristalVivos) + string(global.chefesCristalVivos));
+	draw_text(220, 60, "Inimigos Restantes: " + string(global.inimigosCristalVivos + global.chefesCristalVivos));
 }
 else if room == cen_agua {
 	draw_text(largura/2, 40, "Água");
