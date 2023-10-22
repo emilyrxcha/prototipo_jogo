@@ -4,7 +4,7 @@ var guiL = display_get_gui_width();
 var guiA = display_get_gui_height();
 
 var x1 = guiL / 2;
-var y1 = guiA / 3;
+var y1 = guiA / 2;
 var xm = device_mouse_x_to_gui(0);
 var ym = device_mouse_y_to_gui(0);
 
@@ -32,13 +32,10 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 				show_debug_message("Foi para a tela inicial");
 			}
 			if (selecionada == 2) {
-				room_restart();
-			}
-			if (selecionada == 3) {
 				game_restart();
 				show_debug_message("Reiniciou o jogo");
 			}
-			if (selecionada == 4) {
+			if (selecionada == 3) {
 				game_end();
 				show_debug_message("Fechou o jogo");
 			}

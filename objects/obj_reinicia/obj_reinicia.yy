@@ -11,10 +11,7 @@
     "name": "obj_botoes",
     "path": "folders/Objetos/obj_botoes.yy",
   },
-  "parentObjectId": {
-    "name": "obj_botoes",
-    "path": "objects/obj_botoes/obj_botoes.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

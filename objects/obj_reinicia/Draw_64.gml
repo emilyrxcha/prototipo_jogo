@@ -1,24 +1,21 @@
-draw_set_font(fon_principal);
+sprL = sprite_get_width(spr_botoes) / 2;
+sprA = sprite_get_height(spr_botoes) / 2;
+
+var x1 = 1190 + sprL;	
+var y1 = 30 + sprA;
 
 var xm = device_mouse_x_to_gui(0); //mouse
 var ym = device_mouse_y_to_gui(0); //mouse
 
-var x1 = 1240;	
-var y1 = 30;
-var x2 = 1340;
-var y2 = 60;
-
-if point_in_rectangle(xm, ym, x1, y1, x2, y2){
-	balfa = .6;
+draw_sprite(spr_botoes, 88, x1, y1);
+if point_in_rectangle(xm, ym, x1 - sprL, y1 - sprA, x1 + sprL, y1 + sprA) {
+	draw_sprite(spr_botoes, 88, x1, y1);
 	if (mouse_check_button(mb_left)){
-		show_debug_message("Clicou no botão");
 		room_restart();
+		show_debug_message("Reiniciou a fase");
+		return;
 	}
+	else {
+		draw_sprite(spr_botoes, 89, x1, y1);
 	}
-	else{
-		balfa = 1;
-	}
-draw_set_alpha(balfa);
-draw_button(x1, y1, x2, y2, !mouse_check_button(mb_left));
-draw_text_color(1290 , 45, "reiniciar fase",c_black,c_black,c_black,c_black,balfa);
-draw_set_alpha(1);
+}

@@ -4,7 +4,6 @@ if room = cen_inicio {
 	draw_set_font(fon_titulo);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	//draw_text_ext(largura/2, altura/3, "JORNADA MENTAL", 80, 900);
 	draw_sprite(spr_titulo, 1, largura/2, altura/3);
 }
 if room == cen_metal {

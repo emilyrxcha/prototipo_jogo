@@ -9,7 +9,7 @@ var x2 = 1340;
 var y2 = 60;
 
 if point_in_rectangle(xm, ym, x1, y1, x2, y2){
-	balfa = .6;
+	bAlfa = .6;
 	if (mouse_check_button(mb_left)){
 		show_debug_message("Clicou no botão");
 		if (room != cen_opcoes) {
@@ -25,10 +25,10 @@ if point_in_rectangle(xm, ym, x1, y1, x2, y2){
 	}
 	}
 	else{
-		balfa = 1;
+		bAlfa = 1;
 	}
 }
-draw_set_alpha(balfa);
+draw_set_alpha(bAlfa);
 draw_button(x1, y1, x2, y2, !mouse_check_button(mb_left));
-draw_text_color(1290 , 45, "Opções",c_black,c_black,c_black,c_black,balfa);
+draw_text_color(1290 , 45, "Opções",c_black,c_black,c_black,c_black,bAlfa);
 draw_set_alpha(1);

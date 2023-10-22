@@ -1,2 +1,2 @@
-balfa = 1;
-bescala = 1;
+bAlfa = 1;
+bEscala = 1;
