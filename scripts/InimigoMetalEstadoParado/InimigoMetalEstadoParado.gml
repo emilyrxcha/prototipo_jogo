@@ -25,12 +25,8 @@ function InimigoMetalEstadoParado(){
 #region MORTE
 	if vidaInimigoMetal <= 0 {
 		instance_destroy();
-		// Verifica se ainda existem inimigos vivos na sala
-		global.inimigosMetalRestantes = instance_number(obj_inimigo_metal);
-		
-		if (global.inimigosMetalRestantes == 0 && !global.inimigosMetalMortos && room=cen_metal) {
-        global.inimigosMetalMortos = true;
-			room_goto(cen_agua);
+		if (!audio_is_playing(som_inimigo_morte)) {
+			audio_play_sound(som_inimigo_morte, 2, 0);
 		}
 	}
 #endregion

@@ -10,7 +10,10 @@ function InimigoMetalEstadoPerseguicao(){
 		image_xscale=sign(vir);
 	}
 	//VELOCIDADE
-	hvlc = vir * 2;
+	hvlc = vir * 4;
+			if (!audio_is_playing(som_metal_andando)) {
+		audio_play_sound(som_metal_andando, 3, 0);
+	}
 	if place_meeting(x+hvlc,y,obj_parede){
 		while(!place_meeting(x+sign(hvlc),y,obj_parede)){
 			x = x + sign(hvlc);

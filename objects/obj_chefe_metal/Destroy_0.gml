@@ -1,0 +1,1 @@
+global.chefesMetalVivos -= 1;

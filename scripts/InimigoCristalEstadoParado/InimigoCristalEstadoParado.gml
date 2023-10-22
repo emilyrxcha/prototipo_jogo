@@ -26,12 +26,8 @@ function InimigoCristalEstadoParado(){
 #region MORTE
 	if vidaInimigoCristal <= 0 {
 		instance_destroy();
-		// Verifica se ainda existem inimigos vivos na sala
-		global.inimigosCristalRestantes = instance_number(obj_inimigo_cristal);
-		
-		if (global.inimigosCristalRestantes == 0 && !global.inimigosCristalMortos && room=cen_cristal) {
-        global.inimigosCristalMortos = true;
-			room_goto(cen_inicio);
+		if (!audio_is_playing(som_inimigo_morte)) {
+			audio_play_sound(som_inimigo_morte, 1, 0);
 		}
 	}
 #endregion

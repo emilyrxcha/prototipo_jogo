@@ -1,2 +1,2 @@
 global.faseAtual = room;
-scr_jogador_flechas();
+//scr_jogador_flechas();

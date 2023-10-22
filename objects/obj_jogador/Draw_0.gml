@@ -4,8 +4,8 @@ var y_offset = -60; //posição vertical acima do jogador.
 
 draw_self(); //desenha o jogador.
 
-var texto = "Flechas: " + string(global.flechas);
+//var texto = "Flechas: " + string(global.flechas);
 var x_flecha= x + x_offset;
 var y_flecha = y + y_offset;
 
-draw_text(x_flecha, y_flecha, texto);
+//draw_text(x_flecha, y_flecha, texto);

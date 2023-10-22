@@ -9,12 +9,15 @@ function InimigoAguaEstadoPerseguicao(){
 		vir = sign(obj_jogador.x - x);
 		image_xscale=sign(vir);
 	}
-	
 	//VELOCIDADE
 	hvlc = vir * 4;
+	if (!audio_is_playing(som_agua_andando)) {
+		audio_play_sound(som_agua_andando, 3, 0);
+	}
 	if place_meeting(x+hvlc,y,obj_parede){
 		while(!place_meeting(x+sign(hvlc),y,obj_parede)){
-			x = x + sign(hvlc);}
+			x = x + sign(hvlc);
+		}
 		hvlc = 0;
 	}
 	x = x + hvlc;

@@ -8,7 +8,8 @@ max_pulos = 2;
 pulos = max_pulos;
 
 //distanciaDano = 100; //distância máxima desejada
-global.flechas = 0;
+//global.flechas = 0;
+
 global.danoFlecha = 1
 global.vidaJogador = 4;
 global.inimigosMetalMortos = false;
@@ -17,6 +18,9 @@ global.inimigosCristalMortos = false;
 global.inimigosTerraMortos = false;
 global.inimigosVentoMortos = false;
 global.inimigosFogoMortos = false;
+
+global.chefesCristalMortos = false;
+global.chefesMetalMortos = false;
 
 danoEspera = 5; // Número de frames para aguardar antes de restaurar a sprite
 danoTempo = 0; // Temporizador para controlar o tempo decorrido desde o dano

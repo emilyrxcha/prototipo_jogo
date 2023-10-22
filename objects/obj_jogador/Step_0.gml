@@ -1,3 +1,4 @@
+scr_inimigos_morte();
 switch(estado) {
 	case JogadorEstado.LIVRE: JogadorEstadoLivre(vlc); break;
 	case JogadorEstado.ATAQUE: JogadorEstadoAtaque(); break;

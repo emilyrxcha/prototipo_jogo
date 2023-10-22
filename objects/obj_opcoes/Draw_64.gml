@@ -21,23 +21,27 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 	
 	if (point_in_rectangle(xm, ym, x1 - stringL/2, y2 - stringA/2, x1 + stringL/2, y2 + stringA/2)) {
 		draw_set_color(c_black);
-		selecionada = i;
+		selecionadaO = i;
 		if (mouse_check_button(mb_left)){
-			if (selecionada == 0) {
+			if (selecionadaO == 0) {
+				audio_play_sound(som_voltar,1,0);
 				room_goto(global.faseAtual);
 				show_debug_message("Voltou para o jogo");
 			}
-			if (selecionada == 1) {
+			if (selecionadaO == 1) {
+				audio_play_sound(som_tela,1,0);
 				room_goto(cen_inicio);
 				show_debug_message("Foi para a tela inicial");
 			}
-			if (selecionada == 2) {
+			if (selecionadaO == 2) {
+				audio_play_sound(som_reiniciar,1,0);
 				game_restart();
 				show_debug_message("Reiniciou o jogo");
 			}
-			if (selecionada == 3) {
+			if (selecionadaO == 3) {
+				audio_play_sound(som_sair,1,0);
 				game_end();
-				show_debug_message("Fechou o jogo");
+				show_debug_message("Saiu do jogo");
 			}
 		}
 	}

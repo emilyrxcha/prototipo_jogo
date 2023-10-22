@@ -1,34 +1,20 @@
-draw_set_font(fon_principal);
+sprL = sprite_get_width(spr_botoes) / 2;
+sprA = sprite_get_height(spr_botoes) / 2;
+
+var x1 = 1240 + sprL;	
+var y1 = 30 + sprA;
 
 var xm = device_mouse_x_to_gui(0); //mouse
 var ym = device_mouse_y_to_gui(0); //mouse
 
-var x1 = 1240;	
-var y1 = 30;
-var x2 = 1340;
-var y2 = 60;
-
-if point_in_rectangle(xm, ym, x1, y1, x2, y2){
-	bAlfa = .6;
+draw_sprite(spr_botoes, 16, x1, y1);
+if point_in_rectangle(xm, ym, x1 - sprL, y1 - sprA, x1 + sprL, y1 + sprA) {
 	if (mouse_check_button(mb_left)){
-		show_debug_message("Clicou no botão");
-		if (room != cen_opcoes) {
-			if (instance_exists(obj_jogador)){
-				obj_jogador.persistent = false;
-				instance_activate_all()
-		}
+		audio_play_sound(som_pausar, 1, 0);
 		room_goto(cen_opcoes);
+		show_debug_message("Clicou no botão");
 	}
 	else {
-		room_goto_previous();
-		instance_deactivate_all(true);
-	}
-	}
-	else{
-		bAlfa = 1;
+		draw_sprite(spr_botoes, 17, x1, y1);
 	}
 }
-draw_set_alpha(bAlfa);
-draw_button(x1, y1, x2, y2, !mouse_check_button(mb_left));
-draw_text_color(1290 , 45, "Opções",c_black,c_black,c_black,c_black,bAlfa);
-draw_set_alpha(1);

@@ -17,10 +17,7 @@
     "name": "obj_chefes",
     "path": "folders/Objetos/obj_chefes.yy",
   },
-  "parentObjectId": {
-    "name": "obj_chefe",
-    "path": "objects/obj_chefe/obj_chefe.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

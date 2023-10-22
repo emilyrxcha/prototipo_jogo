@@ -21,21 +21,26 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 	
 	if (point_in_rectangle(xm, ym, x1 - stringW / 2, y2 - stringH /2, x1 + stringW / 2, y2 + stringH / 2)){
 		draw_set_color(c_black);
-		selecionada = i;
+		selecionadaI = i;
 		if (mouse_check_button(mb_left)){
-			if (selecionada == 0) {
+			if (selecionadaI == 0) {
+				audio_play_sound(som_jogar,1,0);
 				room_goto(cen_metal);
 			}
-			if (selecionada == 1) {
+			if (selecionadaI == 1) {
+				audio_play_sound(som_jogar,1,0);
 				room_goto(cen_cristal);
 			}
-			if (selecionada == 2) {
+			if (selecionadaI== 2) {
+				audio_play_sound(som_inicio,1,0);
 				room_goto(cen_personagens);
 			}
-			if (selecionada == 3){
+			if (selecionadaI == 3){
+				audio_play_sound(som_inicio,1,0);
 				room_goto(cen_sobre);
 			}
-			if (selecionada == 4) {
+			if (selecionadaI == 4) {
+				audio_play_sound(som_sair,1,0);
 				game_end();
 			}
 		}

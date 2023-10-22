@@ -26,11 +26,17 @@ function InimigoFogoEstadoParado(){
 #region MORTE
 	if vidaInimigoFogo <= 0 {
 		instance_destroy();
+		if (!audio_is_playing(som_inimigo_morte)) {
+			audio_play_sound(som_inimigo_morte, 1, 0);
+		}
 		// Verifica se ainda existem inimigos vivos na sala
 		global.inimigosFogoRestantes = instance_number(obj_inimigo_fogo);
 		
 		if (global.inimigosFogoRestantes == 0 && !global.inimigosFogoMortos && room = cen_fogo) {
         global.inimigosFogoMortos = true;
+			if (!audio_is_playing(som_venceu)) {
+				audio_play_sound(som_venceu, 1, 0);
+			}
 			room_goto(cen_venceu);
 		}
 	}

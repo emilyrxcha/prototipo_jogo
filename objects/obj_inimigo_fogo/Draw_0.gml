@@ -1,12 +1,17 @@
-if (vidaInimigoFogo >= 0) {
-var x_offset = 0; //posição horizontal desejada em relação ao inimigo 1
-var y_offset = -80; //posição vertical acima do inimigo 1
+var x_offset = 0; //posição horizontal desejada em relação ao inimigo
+var y_offset = -60; //posição vertical acima do inimigo
 
-draw_self(); //desenha o inimigo 1
+draw_self(); //desenha o inimigo
 
-var texto = "Vidas: " + string(vidaInimigoFogo);
 var x_vidaInimigoFogo = x + x_offset;
 var y_vidaInimigoFogo = y + y_offset;
 
-draw_text(x_vidaInimigoFogo, y_vidaInimigoFogo, texto);
+if (vidaInimigoFogo = 2) {	
+	draw_sprite(spr_vidaInimigo, 0, x_vidaInimigoFogo, y_vidaInimigoFogo);
+}
+if (vidaInimigoFogo = 1) {	
+	draw_sprite(spr_vidaInimigo, 2, x_vidaInimigoFogo, y_vidaInimigoFogo);
+}
+if (vidaInimigoFogo = 0) {	
+	draw_sprite(spr_vidaInimigo, 4, x_vidaInimigoFogo, y_vidaInimigoFogo);
 }

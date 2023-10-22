@@ -7,32 +7,27 @@ if room = cen_inicio {
 	draw_sprite(spr_titulo, 1, largura/2, altura/3);
 }
 if room == cen_metal {
-	draw_text(largura/2, 40, "Metal");
-	//draw_text(260, 65, texto_menu);
+	draw_sprite(spr_metal, 1, largura/2, 40);
 	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigosMetalVivos));
 }
 if room == cen_cristal {
-	draw_text(largura/2, 40, "Cristal");
+	draw_sprite(spr_cristal, 1, largura/2, 40);
 	draw_text(220, 60, "Inimigos Restantes: " + string(global.inimigosCristalVivos + global.chefesCristalVivos));
 }
 else if room == cen_agua {
-	draw_text(largura/2, 40, "Água");
-	//draw_text(260, 65, texto_menu);
+	draw_sprite(spr_agua, 1, largura/2, 40);
 	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigosAguaVivos));
 }
 else if room == cen_terra {
-	draw_text(largura/2, 40, "Terra");
-	//draw_text(260, 65, texto_menu);
+	draw_sprite(spr_terra, 1, largura/2, 40);
 	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigosTerraVivos));
 }
 else if room == cen_vento {
-	draw_text(largura/2, 40, "Vento");
-	//draw_text(260, 65, texto_menu);
+	draw_sprite(spr_vento, 1, largura/2, 40);
 	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigosVentoVivos));
 }
 else if room == cen_fogo {
-	draw_text(largura/2, 40, "Fogo");
-	//draw_text(260, 65, texto_menu);
+	draw_sprite(spr_fogo, 1, largura/2, 40);
 	draw_text(260, 85, "Inimigos Restantes: " + string(global.inimigosFogoVivos));
 }
 
