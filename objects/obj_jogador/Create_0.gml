@@ -21,6 +21,10 @@ global.inimigosFogoMortos = false;
 
 global.chefesCristalMortos = false;
 global.chefesMetalMortos = false;
+global.chefesAguaMortos = false;
+global.chefesTerraMortos = false;
+global.chefesVentoMortos = false;
+global.chefesFogoMortos = false;
 
 danoEspera = 5; // Número de frames para aguardar antes de restaurar a sprite
 danoTempo = 0; // Temporizador para controlar o tempo decorrido desde o dano

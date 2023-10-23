@@ -1,0 +1,1 @@
+global.chefesAguaVivos -= 1;

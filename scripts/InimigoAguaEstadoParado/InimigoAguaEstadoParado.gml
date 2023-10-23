@@ -29,16 +29,6 @@ function InimigoAguaEstadoParado() {
 		if (!audio_is_playing(som_inimigo_morte)) {
 			audio_play_sound(som_inimigo_morte, 1, 0);
 		}
-		// Verifica se ainda existem inimigos vivos na sala
-		global.inimigosAguaRestantes = instance_number(obj_inimigo_agua);
-		
-		if (global.inimigosAguaRestantes == 0 && !global.inimigosAguaMortos && room=cen_agua) {
-		global.inimigosAguaMortos = true;
-		if (!audio_is_playing(som_passou)) {
-			audio_play_sound(som_passou, 1, 0);
-		}
-			room_goto(cen_terra);
-		}
 	}
 #endregion
 }

@@ -143,6 +143,7 @@
     {"name":"spr_agua_parado","order":3,"path":"sprites/spr_agua_parado/spr_agua_parado.yy",},
     {"name":"som_cristal","order":1,"path":"sounds/som_cristal/som_cristal.yy",},
     {"name":"til_tileset","order":1,"path":"tilesets/til_tileset/til_tileset.yy",},
+    {"name":"obj_chefe_agua","order":3,"path":"objects/obj_chefe_agua/obj_chefe_agua.yy",},
     {"name":"som_atingiu","order":2,"path":"sounds/som_atingiu/som_atingiu.yy",},
     {"name":"obj_inimigo_agua","order":1,"path":"objects/obj_inimigo_agua/obj_inimigo_agua.yy",},
     {"name":"spr_vidaJogador","order":1,"path":"sprites/spr_vidaJogador/spr_vidaJogador.yy",},

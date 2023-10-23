@@ -201,6 +201,7 @@
     {"id":{"name":"spr_agua_parado","path":"sprites/spr_agua_parado/spr_agua_parado.yy",},},
     {"id":{"name":"som_cristal","path":"sounds/som_cristal/som_cristal.yy",},},
     {"id":{"name":"til_tileset","path":"tilesets/til_tileset/til_tileset.yy",},},
+    {"id":{"name":"obj_chefe_agua","path":"objects/obj_chefe_agua/obj_chefe_agua.yy",},},
     {"id":{"name":"som_atingiu","path":"sounds/som_atingiu/som_atingiu.yy",},},
     {"id":{"name":"obj_inimigo_agua","path":"objects/obj_inimigo_agua/obj_inimigo_agua.yy",},},
     {"id":{"name":"spr_vento_atacando","path":"sprites/spr_vento_atacando/spr_vento_atacando.yy",},},

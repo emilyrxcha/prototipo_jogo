@@ -31,11 +31,6 @@ function InimigoAguaEstadoPerseguicao(){
 	}
 	y = y + vvlc;
 	#endregion
-	//TROCA O LADO DO SPRITE
-	if (abs(vir)){
-		
-	}
-		
 	if distance_to_object(obj_jogador) > distancia {
 		estado = InimigoAguaEstado.PARADO;
 	}
