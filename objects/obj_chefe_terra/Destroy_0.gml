@@ -1,0 +1,1 @@
+global.chefesTerraVivos -= 1;

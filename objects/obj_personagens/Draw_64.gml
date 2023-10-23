@@ -26,24 +26,31 @@ if (room = cen_personagens) {
 			selecionada = i;
 			if (mouse_check_button(mb_left)){
 				if (selecionada == 0){
+					audio_play_sound(som_inicio,1,0);
 					room_goto(cen_personagem_folha);
 				}
 				if (selecionada == 1){
+					audio_play_sound(som_inicio,1,0);
 					room_goto(cen_personagem_cristal);
 				}
 				if (selecionada == 2){
+					audio_play_sound(som_inicio,1,0);
 					room_goto(cen_personagem_metal);
 				}
 				if (selecionada == 3){
+					audio_play_sound(som_inicio,1,0);
 					room_goto(cen_personagem_agua);
 				}
 				if (selecionada == 4){
+					audio_play_sound(som_inicio,1,0);
 					room_goto(cen_personagem_terra);
 				}
 				if (selecionada == 5){
+					audio_play_sound(som_inicio,1,0);
 					room_goto(cen_personagem_vento);
 				}
 				if (selecionada == 6){
+					audio_play_sound(som_inicio,1,0);
 					room_goto(cen_personagem_fogo);
 				}
 			}

@@ -25,20 +25,10 @@ function InimigoTerraEstadoParado(){
 	}
 #region MORTE
 	if vidaInimigoTerra <= 0 {
-		instance_destroy();
 		if (!audio_is_playing(som_inimigo_morte)) {
-			audio_play_sound(som_inimigo_morte, 1, 0);
+			audio_play_sound(som_inimigo_morte, 2, 0);
 		}
-		// Verifica se ainda existem inimigos vivos na sala
-		global.inimigosTerraRestantes = instance_number(obj_inimigo_terra);
-		
-		if (global.inimigosTerraRestantes == 0 && !global.inimigosTerraMortos && room=cen_terra) {
-        global.inimigosTerraMortos = true;
-		if (!audio_is_playing(som_passou)) {
-			audio_play_sound(som_passou, 1, 0);
-		}
-			room_goto(cen_vento);
-		}
+		instance_destroy();
 	}
 #endregion
 }

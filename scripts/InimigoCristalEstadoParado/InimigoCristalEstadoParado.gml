@@ -25,10 +25,10 @@ function InimigoCristalEstadoParado(){
 	}
 #region MORTE
 	if vidaInimigoCristal <= 0 {
-		instance_destroy();
 		if (!audio_is_playing(som_inimigo_morte)) {
-			audio_play_sound(som_inimigo_morte, 1, 0);
+			audio_play_sound(som_inimigo_morte, 2, 0);
 		}
+		instance_destroy();
 	}
 #endregion
 }

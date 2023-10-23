@@ -1,0 +1,1 @@
+global.chefesVentoVivos -= 1;

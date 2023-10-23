@@ -25,20 +25,10 @@ function InimigoVentoEstadoParado(){
 	}
 #region MORTE
 	if vidaInimigoVento <= 0 {
-		instance_destroy();
 		if (!audio_is_playing(som_inimigo_morte)) {
-			audio_play_sound(som_inimigo_morte, 1, 0);
+			audio_play_sound(som_inimigo_morte, 2, 0);
 		}
-		// Verifica se ainda existem inimigos vivos na sala
-		global.inimigosVentoRestantes = instance_number(obj_inimigo_vento);
-		
-		if (global.inimigosVentoRestantes == 0 && !global.inimigosVentoMortos && room=cen_vento) {
-        global.inimigosVentoMortos = true;
-		if (!audio_is_playing(som_passou)) {
-			audio_play_sound(som_passou, 1, 0);
-		}
-			room_goto(cen_fogo);
-		}
+		instance_destroy();
 	}
 #endregion
 }

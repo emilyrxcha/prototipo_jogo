@@ -1,0 +1,9 @@
+vlc = 5; //velocidade
+hvlc = 0; //velocidade horizontal
+vvlc = 0; //velocidade vertical
+grv = 0.4; //gravidadde
+distancia = 150;
+image_speed = 0.4; //velocidade de reprodução de uma animação
+vidaChefeVento = 2;
+global.chefesVentoVivos = instance_number(obj_chefe_vento); 
+alarm[0] = 0;

@@ -28,15 +28,12 @@ function InimigoFogoEstadoPerseguicao(){
 	}
 	y = y + vvlc;
 	#endregion
-	//TROCA O LADO DO SPRITE
-	if (abs(vir)){
-		
-	}
-		
+	
 	if distance_to_object(obj_jogador) > distancia {
 		estado = InimigoFogoEstado.PARADO;
 	}
-	if distance_to_object(obj_jogador) < 5 && vvlc = 0{
+	if distance_to_object(obj_jogador) < 5 && vvlc = 0 {
 		estado = InimigoFogoEstado.ATAQUE;
 	}
+	
 }

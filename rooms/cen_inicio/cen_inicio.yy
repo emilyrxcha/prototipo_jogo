@@ -8,8 +8,8 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_4EDB4736_1_2","path":"rooms/cen_inicio/cen_inicio.yy",},
-    {"name":"inst_5CDCF670","path":"rooms/cen_inicio/cen_inicio.yy",},
     {"name":"inst_7319C09F","path":"rooms/cen_inicio/cen_inicio.yy",},
+    {"name":"inst_5CDCF670","path":"rooms/cen_inicio/cen_inicio.yy",},
   ],
   "isDnd": false,
   "layers": [

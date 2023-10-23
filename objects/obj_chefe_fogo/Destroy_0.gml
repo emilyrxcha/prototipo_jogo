@@ -1,0 +1,1 @@
+global.chefesFogoVivos -= 1;

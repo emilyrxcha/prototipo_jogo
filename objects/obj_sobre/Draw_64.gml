@@ -38,4 +38,4 @@ for (var i = 0 ; i < opcoesQtd ; i++) {
 	draw_text(x1, y2, opcoesSobre[i]);
 	*/
 //}
-draw_text(x1, y1, "Teste");
+draw_text(x1, y1, "TCC de Emily");
