@@ -4,13 +4,12 @@
   "name": "obj_inicio",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_menus",
-    "path": "folders/Objetos/obj_menus.yy",
+    "name": "obj_botoes",
+    "path": "folders/Objetos/obj_botoes.yy",
   },
   "parentObjectId": null,
   "persistent": false,

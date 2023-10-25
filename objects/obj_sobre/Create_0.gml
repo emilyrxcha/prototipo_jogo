@@ -1,3 +1,1 @@
-//opcoesSobre = ["tela inicial", "sair"];
-//opcoesQtd = array_length(opcoesSobre);
-//selecionada = 0;
+creditos = "Trabalho de Conclusão de Curso de Emily Caroline Rocha Silva \n \n Créditos: \n 'chierit.itch.io' \n 'leo-red.itch.io' \n www.textstudio.com \n 'leohpaz.itch.io' \n 'pixerat.itch.io' \n 'craftpix.net' \n 'fonts.google.com'";

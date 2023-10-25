@@ -1,4 +1,11 @@
 draw_set_font(fon_principal);
+
+var guiW = display_get_gui_width();
+var guiH = display_get_gui_height();
+
+var x1 = guiW / 2;
+var y1 = guiH / 2;
+
 if room = cen_inicio {
 	draw_set_font(fon_titulo);
 	draw_set_halign(fa_center);
@@ -41,4 +48,8 @@ else if room = cen_perdeu {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	draw_text_ext(largura/2, altura/2, "Você perdeu!", 80, 900);
+}
+else if room = cen_personagens {
+	draw_set_font(fon_titulo);
+	draw_text_ext(x1, y1 - 100, "Clique no ícone desejado", 30, 1000);
 }
